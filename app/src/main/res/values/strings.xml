@@ -86,7 +86,7 @@
     <string name="operate_quality_defect_rate">Defects</string>
     <string name="employee_number_or_mail">Work number or email</string>
     <string name="e_lead_mail_address">\@e-lead.cn</string>
-    <string name="e_lead_login_failed">Login failed, please try agin!</string>
+    <string name="e_lead_login_failed">Login failed, please try again!</string>
 
     <string-array name="approval">
         <item>Ask for leave</item>
