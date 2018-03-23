@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/tranpant_bg_selector"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/big_line_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_lable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/approval_reimbursement_detail"
+            android:textSize="@dimen/approval_textsize" />
+
+        <TextView
+            android:id="@+id/tv_deleted"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/approval_deleted"
+            android:textColor="@color/qianlv"
+            android:textSize="@dimen/approval_textsize"
+
+            />
+    </LinearLayout>
+
+    <com.elead.approval.widget.EdiTextItem
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></com.elead.approval.widget.EdiTextItem>
+
+    <com.elead.approval.widget.EdiTextItem
+        android:id="@+id/ed_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></com.elead.approval.widget.EdiTextItem>
+
+</LinearLayout>

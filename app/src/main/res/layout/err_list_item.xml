@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.elead.upcard.view.SignErrorView
+        android:id="@+id/sign_err_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/rdg_err_select"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:background="#f9f9f9"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/rad_buqian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tranpant_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="补签"
+            android:textColor="@drawable/err_item_selector"
+            android:textSize="@dimen/px42" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/small_line_bg" />
+
+        <Button
+            android:id="@+id/rad_qingjia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tranpant_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="请假"
+            android:textColor="@drawable/err_item_selector"
+            android:textSize="@dimen/px42" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/small_line_bg" />
+
+        <Button
+            android:id="@+id/rad_waichu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tranpant_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="外出公干"
+            android:textColor="@drawable/err_item_selector"
+            android:textSize="@dimen/px42" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

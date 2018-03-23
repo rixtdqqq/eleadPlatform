@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more_ll_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/card_more_add"
+    android:layout_gravity="center"
+    android:id="@+id/imgsrc_id"/>
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="more"
+    android:textSize="11dp"
+    android:textColor="@color/fontcolors6"
+    android:layout_gravity="center"
+    />
+
+</LinearLayout>

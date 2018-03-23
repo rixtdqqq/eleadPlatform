@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/continor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/activity_user_calendar_PreMonthBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:drawableLeft="@drawable/left_icon"
+            android:gravity="center"
+            android:text="@string/last_month"
+            android:textColor="#333333"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/activity_user_calendar_NextMonthBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17dp"
+            android:drawableRight="@drawable/right_icon"
+            android:gravity="center"
+            android:text="@string/next_month"
+            android:textColor="#333333"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/slide_time"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:ems="11"
+            android:gravity="center"
+            android:lines="1"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#dedede" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip">
+
+        <TableRow>
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="一"
+                android:textColor="#999999" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="二"
+                android:textColor="#999999" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="三"
+                android:textColor="#999999" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="四"
+                android:textColor="#999999" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="五"
+                android:textColor="#999999" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="六"
+                android:textColor="#999999" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="日"
+                android:textColor="#999999" />
+        </TableRow>
+    </TableLayout>
+
+    <com.gly.calendar.view.CustomViewPager
+        android:id="@+id/activity_user_calendar_Viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

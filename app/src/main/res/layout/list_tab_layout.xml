@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.elead.views.pulltorefresh.PullToRefreshListView
+        android:id="@+id/pulltorefreshlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:overScrollMode="never"
+        android:overScrollFooter="@android:color/transparent"
+        android:overScrollHeader="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <com.elead.views.TbSelector
+        android:id="@+id/report_main_tb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/rdc_base_bg_color" />
+</LinearLayout>
+

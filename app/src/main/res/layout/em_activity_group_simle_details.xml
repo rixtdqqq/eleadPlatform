@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TableLayout
+        android:id="@+id/email_contanier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical">
+
+        <TableRow>
+
+            <com.elead.views.CircularImageView
+                android:id="@+id/avatar"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/em_group_icon" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@id/avatar"
+                android:gravity="center_vertical"
+                android:padding="9dp"
+                android:text="@string/my_nick"
+                android:textColor="@color/fontcolors7"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="9dp"
+                android:text="@string/Group_of_Lord"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:minEms="6"
+                android:text="..."
+                android:textColor="@color/fontcolors7"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="9dp"
+                android:text="@string/Introduction"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="..."
+                android:textColor="@color/fontcolors7"
+                android:textSize="14sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_add_to_group"
+        style="@style/CommitButtonStyle_No_Margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:enabled="false"
+        android:onClick="addToGroup"
+        android:text="@string/To_join_the_chat" />
+
+</LinearLayout>

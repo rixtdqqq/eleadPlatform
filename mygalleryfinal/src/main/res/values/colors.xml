@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="danzi">#a48fd9</color>
+    <color name="tuhuang">#f9d546</color>
+    <color name="qianlv">#2ec7c9</color>
+    <color name="chengse">#fd964c</color>
+    <color name="hongse">#ff6969</color>
+    <color name="lanlv">#12bdff</color>
+    <color name="caolv">#5fdd9e</color>
+    <color name="shenlan">#2e96c9</color>
+    <color name="qianlan">#93dc58</color>
+    <color name="huyanlv">#ace4e5</color>
+    <color name="elead_1eafad">#1eafad</color>
+    <color name="title_bg">#29acae</color>
+
+    <color name="bg_grey">#f5f5f5</color>
+    <color name="bg_color">#20000000</color>
+
+    <color name="round_corner_progress_bar_progress_default">#7f7f7f</color>
+    <color name="round_corner_progress_bar_secondary_progress_default">@android:color/transparent
+    </color>
+
+    <color name="page_indicator_default_color">#545454</color>
+
+    <color name="stable_little_color">#78909c</color>
+    <color name="data_time_color">#4f697a</color>
+    <color name="develop_tb_line">#2ec7c9</color>
+    <color name="text_develop_tb_def">#7c7e85</color>
+
+    <!--  fontcolors  -->
+    <color name="fontcolors1">#001c58</color>
+    <color name="fontcolors2">#515974</color>
+    <color name="fontcolors3">#7e8e9f</color>
+    <color name="fontcolors4">#999999</color>
+    <color name="fontcolors5">#cccccc</color>
+    <color name="fontcolors6">#03004c</color>
+    <color name="fontcolors7">#666666</color>
+    <color name="fontcolors8">#333333</color>
+    <color name="fontcolors9">#a9a9a9</color>
+    <color name="fontcolors10">#197e7f</color>
+
+    <!--opera-->
+    <color name="opera_title_bg">#1b2133</color>
+    <color name="small_line_bg">#dedede</color>
+    <color name="big_line_bg">#f5f5f5</color>
+
+
+    <!--rdc-->
+    <color name="rdc_base_bg_color">#202020</color>
+    <color name="rdc_line_color">#161616</color>
+    <color name="color_464848">#464848</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="transport">#00000000</color>
+
+    <color name="up_card_2dbcdf">#2dbcdf</color>
+    <color name="up_card_ec8181">#ec8181</color>
+    <color name="up_card_5dd0aa">#5dd0aa</color>
+    <color name="up_card_212121">#212121</color>
+
+    <color name="im_bottom_line">#919191</color>
+    <color name="im_chatlist_bg">#e6e6e6</color>
+    <color name="im_bottom_send_bg">#19ad17</color>
+    <color name="im_bottom_etline_bg">#a8a8a8</color>
+
+    <color name="elead_f25e5e">#f25e5e</color>
+</resources>

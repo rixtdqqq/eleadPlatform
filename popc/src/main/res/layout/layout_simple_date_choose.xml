@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16.5dp" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:src="@drawable/close_btn_selector" />
+    </FrameLayout>
+
+    <com.gly.calendar.view.RadioGroupEx
+        android:id="@+id/mradio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-16.5dp"
+        android:layout_marginTop="-16.5dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rad_1"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="今日"
+            android:textColor="@drawable/simple_btn_text_seleor"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rad_2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="昨日"
+            android:textColor="@drawable/simple_btn_text_seleor"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rad_3"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="本周"
+            android:textColor="@drawable/simple_btn_text_seleor"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rad_4"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="上周"
+            android:textColor="@drawable/simple_btn_text_seleor"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rad_5"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="本月"
+            android:textColor="@drawable/simple_btn_text_seleor"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rad_6"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/simple_btn_bg_seleor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="上月"
+            android:textColor="@drawable/simple_btn_text_seleor"
+            android:textSize="15sp" />
+    </com.gly.calendar.view.RadioGroupEx>
+
+    <Button
+        android:id="@+id/btn_cust_scope"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16.5dp"
+        android:layout_marginRight="16.5dp"
+        android:background="@drawable/simple_btn_bg_seleor"
+        android:button="@null"
+        android:gravity="center"
+        android:text="自定义日期范围"
+        android:textColor="@drawable/simple_btn_text_seleor"
+        android:textSize="15sp" />
+
+</LinearLayout>

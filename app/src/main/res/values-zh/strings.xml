@@ -1,0 +1,840 @@
+<resources>
+    <string name="app_name">E平台</string>
+    <string name="search_header">Search</string>
+    <string name="login">登录</string>
+    <string name="password">密码</string>
+    <string name="register">新用户</string>
+
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="unable_to_connect">Unable to connect to the server</string>
+
+    <string name="User_name_cannot_be_empty">MyUser name cannot be empty!</string>
+    <string name="Password_cannot_be_empty">Password cannot be empty!</string>
+
+    <string name="dl_title_upload_photo">更新照片</string>
+    <string name="dl_msg_local_upload">相册</string>
+    <string name="dl_msg_take_photo">拍照</string>
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <string name="confirm">确认</string>
+    <string name="get_back_password">忘记密码</string>
+    <string name="modify_password">修改密码</string>
+    <string name="click_again_exit">再按一次返回键退出应用</string>
+    <string name="waiting_for_my_approval">待审批</string>
+    <string name="i_started">我发起的</string>
+    <string name="cc_my">抄送我的</string>
+    <string name="no_data">暂无数据</string>
+    <string name="approval_type">审批类型:</string>
+    <string name="applicant">申请人:</string>
+    <string name="already_approve">已审批</string>
+    <string name="my_approve">我审批的</string>
+    <string name="add_approved">添加审批</string>
+    <string name="approved">审批</string>
+    <string name="approval_total">总报销金额(元):</string>
+    <string name="approval_add_reimbursement_detail">添加</string>
+    <string name="approval_reimbursement_detail">报销明细</string>
+    <string name="approval_deleted">删除</string>
+    <string name="approval_reimbursement_money">报销金额(元)</string>
+    <string name="approval_reimbursement_money_hint">请输入数字(必填)</string>
+    <string name="approval_reimbursement_type">报销类别</string>
+    <string name="approval_money_detail">费用明细</string>
+    <string name="approval_reimbursement_type_hint">如：采购经费、活动经费(必填)</string>
+    <string name="approval_reimbursement_money_detail_hint">请输入费用明细描述</string>
+    <string name="approval_res_detail">物品明细</string>
+    <string name="approval_res_purpose">物品用途</string>
+    <string name="approval_res_name">物品名称</string>
+    <string name="approval_res_count">物品数量</string>
+    <string name="approval_res_receive_detail">领用详情</string>
+    <string name="approval_res_purpose_hint">如：日常办公(必填)</string>
+    <string name="approval_res_name_hint">请输入物品名称(必填)</string>
+    <string name="approval_res_count_hint">请输入数量</string>
+    <string name="approval_res_receive_detail_hint">请输入物品领用详情说明</string>
+    <string name="approval_is_not_null">必填项不能为空</string>
+    <string name="approval_application_content">申请内容</string>
+    <string name="approval_details">审批详情</string>
+    <string name="approval_application_content_hint">请输入申请内容(必填)</string>
+    <string name="approval_details_hint">请输入审批详情(必填)</string>
+    <string name="pubch_the_clock">手机打卡</string>
+    <string name="welcome_punch_the_clock">欢迎开始智能办公的每一天</string>
+    <string name="create_team">创建团队</string>
+    <string name="search_employee_no">输入工号搜索</string>
+    <string name="scan_friend">扫一扫</string>
+    <string name="add_phone_contacts">添加手机联系人</string>
+    <string name="my_qr_code">我的二维码名片</string>
+    <string name="add_friends">添加好友</string>
+    <string name="create_groud">创建群组</string>
+    <string name="attendance_no">出勤人数</string>
+    <string name="person_attendance">人员出勤</string>
+    <string name="late">迟到</string>
+    <string name="leave_early">早退</string>
+    <string name="absenteeism">旷工</string>
+    <string name="field_personnel">外勤</string>
+    <string name="not_scheduling">未排班</string>
+    <string name="missing_card">缺卡</string>
+    <string name="add">添加</string>
+    <string name="provider">提供者:</string>
+    <string name="classic_model">经典模板</string>
+    <string name="custom">自定义</string>
+    <string name="approval_manager">审批管理</string>
+    <string name="admin">管理员</string>
+    <string name="list_item_po_submit_date">提交时间:</string>
+    <string name="operate_see_the_more">查看更多</string>
+    <string name="operate_compliance">遵从度</string>
+    <string name="operate_problem_number">问题数</string>
+    <string name="operate_check_item">检查项</string>
+    <string name="operate_quality_defect">质量缺陷</string>
+    <string name="operate_quality_name">名称</string>
+    <string name="operate_quality_prompt">提示</string>
+    <string name="operate_quality_commonly">一般</string>
+    <string name="operate_quality_serious">严重</string>
+    <string name="operate_quality_deadly">致命</string>
+    <string name="operate_quality_defect_rate">缺陷率</string>
+    <string name="employee_number_or_mail">工号或邮箱</string>
+    <string name="e_lead_mail_address">\@e-lead.cn</string>
+    <string name="e_lead_login_failed">登录失败,请重试!</string>
+    <string name="attendance_statistical">统计</string>
+    <string-array name="approval">
+        <item>请假</item>
+        <item>报销</item>
+        <item>出差</item>
+        <item>外出</item>
+        <item>物品领用</item>
+        <item>通用审批</item>
+
+    </string-array>
+
+    <string-array name="classic_model_name">
+        <item>部门协作</item>
+        <item>立项申请</item>
+        <item>备用金申请</item>
+        <item>订货审批</item>
+        <item>物品申购</item>
+        <item>收款</item>
+        <item>采购</item>
+        <item>新闻爆料</item>
+        <item>会议审批</item>
+        <item>资质使用</item>
+        <item>合同审批</item>
+        <item>工作请示</item>
+        <item>调课报备</item>
+        <item>快递寄送</item>
+        <item>绩效自评</item>
+        <item>用车申请</item>
+        <item>用印申请</item>
+        <item>离职</item>
+        <item>转正</item>
+        <item>加班</item>
+        <item>付款</item>
+        <item>招聘</item>
+    </string-array>
+
+    <string-array name="classic_model_description">
+        <item>适用于跨部门发起协作时的申请</item>
+        <item>适用于项目立项时的申请</item>
+        <item>用于企业员工出差或外出办事...</item>
+        <item>用于订货类审批</item>
+        <item>适用于公司物品申购</item>
+        <item>适用于向客户收款时的审批</item>
+        <item>用于企业办公或所需材料的采...</item>
+        <item>适用于新闻信息上报</item>
+        <item>适用于举办重要会议议程的审批</item>
+        <item>提供各类资质(营业执照等)...</item>
+        <item>适用于适用于草拟合同以后的审批</item>
+        <item>适用于向上级请示工作</item>
+        <item>用于学校老师互相之间调课时...</item>
+        <item>公司内物品寄送时使用可记录...</item>
+        <item>用于月度工作绩效汇报</item>
+        <item>适用于因公使用车辆的申请</item>
+        <item>适用于公司印章使用</item>
+        <item>适用于离职审批</item>
+        <item>用于试用期内员工的员工转正...</item>
+        <item>适用于加班审批</item>
+        <item>适用于付款审批</item>
+        <item>用于用人部门需求申请</item>
+    </string-array>
+
+    <string name="approval_workover">我的加班</string>
+    <string name="approval_starttime">开始时间</string>
+    <string name="approval_endtime">结束时间</string>
+    <string name="approval_workover_time">加班时长</string>
+    <string name="approval_write_workover_time">请填写加班时长(必填)</string>
+    <string name="approval_isfadingjiari">是否法定假日</string>
+    <string name="approval_choose">请选择</string>
+    <string name="approval_choose_must">请选择(必填)</string>
+    <string name="approval_yes">是</string>
+    <string name="approval_no">否</string>
+    <string name="approval_he_suan_fang_shi">加班核算方式</string>
+    <string name="approval_sheqing_tiaoxiu">申请调休</string>
+    <string name="approval_shenqing_jiaban_fei">申请加班费</string>
+    <string name="approval_workover_reasonwhy">加班原因</string>
+    <string name="approval_white_reasonwhy">请填写加班原因</string>
+    <string name="approval_my_contract">我的合同审批</string>
+    <string name="approval_contract_code">合同编号</string>
+    <string name="approval_please_write_must">请输入(必填)</string>
+    <string name="approval_our_name">我方单位姓名</string>
+    <string name="please_write">请输入</string>
+    <string name="approval_our_head">我方负责人</string>
+    <string name="approval_there_entrty_name">对方单位名称</string>
+    <string name="approval_there_head_name">对方负责人姓名</string>
+    <string name="approval_contract_terms">合同条款</string>
+    <string name="approval_content">内容</string>
+    <string name="approval_my_goaway">我的离职</string>
+    <string name="approval_induction_date">入职日期</string>
+    <string name="approval_my_goaway_date">离职日期</string>
+    <string name="approval_job">所属刚为</string>
+    <string name="approval_please_write_job_must">请填写所属岗位(必填)</string>
+    <string name="approval_tranfser_peo">交接人员</string>
+    <string name="approval_please_write_transfer_must">请填写交接人员(必填)</string>
+    <string name="approval_contact_start_time">劳动合同开始时间</string>
+    <string name="approval_contact_end_time">劳动合同结束时间</string>
+    <string name="approval_goaway_reason">离职原因</string>
+    <string name="approval_write_goaway_time">请填写离职原因(必填)</string>
+    <string name="approval_transfer_thing">所需交接事项</string>
+    <string name="approval_please_write_transfer_thing">请填写所需交接事项(必填)</string>
+    <string name="approval_my_pay">我的付款</string>
+    <string name="approval_pay_reason">付款事由</string>
+    <string name="approval_please_write_pay_reason">请填写付款事由(必填)</string>
+    <string name="approval_pay_total">付款总额</string>
+    <string name="approval_pleast_write_pay_total">请填写付款总额(必填)</string>
+    <string name="approval_pay_way">付款方式</string>
+    <string name="approval_pay_date">支付日期</string>
+    <string name="approval_pay_object">支付对象</string>
+    <string name="approval_pleast_write_pay_object">请填写支付对象(必填)</string>
+    <string name="approval_open_bank">开户行</string>
+    <string name="approval_pleast_write_open_bank">请填写开户行(必填)</string>
+    <string name="approval_bank_user">银行账户</string>
+    <string name="approval_pleast_write_bank_user">请填写银行账户(必填)</string>
+    <string name="approval_my_positive">我的转正</string>
+    <string name="approval_loginin_date">入职日期</string>
+    <string name="approval_tryuse_job">试用期岗位</string>
+    <string name="approval_pleast_write_tryuse_job">请填写试用期岗位(必填)</string>
+    <string name="approval_job_understand">对本岗位的理解</string>
+    <string name="approval_pleast_whrite_job_understand">请填写对本岗位的理解(必填)</string>
+    <string name="approval_conclusion">试用期对本岗位的总结</string>
+    <string name="approval_please_write_conclusion">请填写试用期对本岗位的总结(必填)</string>
+    <string name="approval_advice_to_company">对公司的意见和建议</string>
+    <string name="approval_pleast_write_advice_to_company">请填写对公司的意见和建议(必填)</string>
+    <string name="approval_my_shop">我的采购</string>
+    <string name="approval_apply_reason">申请事由</string>
+    <string name="approval_pleast_write_apply_reason">请输入申请事由</string>
+    <string name="approval_shop_type">采购类型</string>
+    <string name="approval_hope_delivery_date">期望交付日期</string>
+    <string name="approval_shop_detils">采购明细</string>
+    <string name="approval_specifications">规格</string>
+    <string name="approval_name">名称</string>
+    <string name="approval_count">数量</string>
+    <string name="approval_company">单位</string>
+    <string name="approval_price">价格</string>
+    <string name="approval_note">备注</string>
+    <string name="approval_my_use_car">我的用车</string>
+    <string name="approval_apply_department">申请部门</string>
+    <string name="approval_please_write_department">请填写申请部门(必填)</string>
+    <string name="approval_pleast_write_user_reason">请填写用车事由(必填)</string>
+    <string name="approval_usecar_reson">用车事由</string>
+    <string name="approval_start_place">始发地点</string>
+    <string name="approval_pleast_write_start_place">请填写始发地点(必填)</string>
+    <string name="approval_back_place">返回地点</string>
+    <string name="approval_pleast_write_back_place">请填写返回地点(必填)</string>
+    <string name="approval_use_car_date">用车日期</string>
+    <string name="approval_back_date">返回日期</string>
+    <string name="approval_car_details">车辆明细</string>
+    <string name="approval_car_type">车辆类型</string>
+    <string name="approval_carnum">数量(辆)</string>
+    <string name="approval_other_order">其他要求</string>
+    <string name="please_my_yong_yin_apply">我的用印申请</string>
+    <string name="please_yong_yin_department">用印部门</string>
+    <string name="approval_agent">经办人</string>
+    <string name="please_write_agent">请填写经办人(必填)</string>
+    <string name="approval_date">日期</string>
+    <string name="approval_yong_yin_file_name">用印文件名称</string>
+    <string name="approval_please_write_yong_yin_file_name">请填写用印文件名称(必填)</string>
+    <string name="approval_file_count">文件份数</string>
+    <string name="approval_pleast_files_count">请填写文件份数(必填)</string>
+    <string name="approval_file_type">文件类别</string>
+    <string name="approval_gai_sha_yin_zhang">加盖何种印章</string>
+    <string name="approval_pleast_write_note">请填写备注</string>
+    <string name="approval_my_business_trip">出差</string>
+    <string name="approval_trip_details">行程明细</string>
+    <string name="approval_trip_place">出差地点</string>
+    <string name="approval_trip_place_hint">如:北京,上海,杭州(必填)</string>
+    <string name="approval_trip_reason">出差事由</string>
+    <string name="approval_trip_reason_hint">请输入出差事由(必填)</string>
+    <string name="approval_trip_days">出差天数</string>
+    <string name="approval_trip_days_hint">请输入出差天数(必填)</string>
+    <string name="approval_my_go_out">我的外出</string>
+    <string name="approval_go_out_time">外出时间(小时)</string>
+    <string name="approval_go_out_time_hint">请输入外出时间(必填)</string>
+    <string name="approval_go_out_reason">外出事由</string>
+    <string name="approval_go_out_reason_hint">请输入外出事由(必填)</string>
+    <string name="approval_leave">我的请假</string>
+    <string name="approval_leave_type">请假类型</string>
+    <string name="approval_leave_days">请假天数</string>
+    <string name="approval_leave_reason">请假事由</string>
+    <string name="approval_leave_days_hint">请输入请假天数</string>
+    <string name="approval_leave_reason_hint">请输入请假事由</string>
+    <string name="approval_must_write_not_null">必填项不能为空</string>
+    <string name="elead_login_bottom_text">2016 E-lead. All Rights Reserves.</string>
+    <string name="user_password_isnull">用户名或密码为空！</string>
+    <string name="submit">提交</string>
+    <string name="photo">图片</string>
+    <string name="approver">审批人</string>
+
+
+    <string name="approval_my_classes">我的调课报备</string>
+    <string name="approval_the_classes_please_recommit_approval">调课时需要提交审批报备</string>
+    <string name="approval_the_classes_date">调课日期</string>
+    <string name="approval_section">节次</string>
+    <string name="approval_subjects">科目</string>
+    <string name="approval_other_name">对方姓名</string>
+    <string name="approval_other_date">对方日期</string>
+    <string name="approval_other_subjects">对方节次</string>
+    <string name="approval_morning_class">晨间课程</string>
+    <string name="approval_one_am">上午第一节</string>
+    <string name="approval_two_am">上午第二节</string>
+    <string name="approval_three_am">上午第三节</string>
+    <string name="approval_four_am">上午第四节</string>
+    <string name="approval_one_pm">下午第一节</string>
+    <string name="approval_two_pm">下午第二节</string>
+    <string name="approval_three_pm">下午第三节</string>
+    <string name="approval_four_pm">下午第四节</string>
+    <string name="approval_night_class">夜间课程</string>
+    <string name="approval_Chinese_language_and_literature">语文</string>
+    <string name="approval_English">英语</string>
+    <string name="approval_mathematics">数学</string>
+    <string name="approval_physical_education">体育</string>
+    <string name="approval_musice">音乐</string>
+    <string name="approval_computer">计算机</string>
+    <string name="approval_natural_sciences">自然科学</string>
+
+    <string name="approval_my_collect_money">我的收款</string>
+    <string name="approval_customer_name">客户姓名</string>
+    <string name="approval_customer_company">客户公司</string>
+    <string name="approval_collect_money_reason">收款原因</string>
+    <string name="approval_collect_money_way">收款方式</string>
+    <string name="approval_transfer">转账</string>
+    <string name="approval_link_phone">联系电话</string>
+    <string name="approval_collect_money">收款金额(元)</string>
+    <string name="approval_money">现金</string>
+    <string name="approval_pay_treasure">支付宝</string>
+
+    <string name="approval_my_cooperation">我的协作部门</string>
+    <string name="approval_cooperation_reason">协作事由</string>
+    <string name="approval_expect_target">预期目标</string>
+    <string name="approval_sponsor">发起方</string>
+    <string name="approval_cooperation">协作</string>
+    <string name="approval_cooperation_other">协作方</string>
+    <string name="approval_cooperation_item">协作事项</string>
+    <string name="approval_complete_date">完成日期</string>
+
+    <string name="approval_Self_evaluation">我的绩效自评</string>
+    <string name="approval_last_month_task">上个月工资任务</string>
+    <string name="approval_please_input">请输入(必填)</string>
+    <string name="approval_actually_complete_task">实际完成任务</string>
+    <string name="approval_task_complete_rate">任务完成率</string>
+    <string name="approval_digital_complete_rate">数字业绩类填写达成率</string>
+    <string name="approval_lastmonth_self">上个月工作自评</string>
+    <string name="approval_this_moth_task">本月工作任务</string>
+    <string name="approval_this_month_plan">本月工作计划</string>
+
+
+    <string name="approval_my_express_send">我的快递寄送</string>
+    <string name="approval_send_content">邮寄内容</string>
+    <string name="approval_express_company_name">快递公司名称</string>
+    <string name="approval_send_date">邮寄日期</string>
+    <string name="approval_express_number">快递单号</string>
+    <string name="approval_express_deal_requier">快递处理要求</string>
+    <string name="approval_sign_requrie">签收要求</string>
+    <string name="approval_please_sign_up">请签收</string>
+    <string name="approval_single_sign_up">单人可签收</string>
+    <string name="approval_require_more_people_sign_up">需多人签收</string>
+
+    <string name="approval_my_meeting_approval">我的会议审</string>
+    <string name="approval_meeting_name">会议名称</string>
+    <string name="approval_meeting_place">会议地点</string>
+    <string name="approval_hoster">主办方</string>
+    <string name="approval_meeting_trip">会议议程</string>
+    <string name="approval_meeting_theme">主题</string>
+    <string name="approval_spokesman">发言人</string>
+
+    <string name="approval_my_news_fact">我的新闻爆料</string>
+    <string name="approval_news_type">新闻类型</string>
+    <string name="approval_news_source">新闻来源</string>
+    <string name="approval_urgency_level">紧急程度</string>
+    <string name="approval_event_description">事件描述</string>
+    <string name="approval_urgenc">紧急</string>
+    <string name="approval_ordinary">普通</string>
+    <string name="approval_emergent_events">突发事件</string>
+    <string name="approval_be_heroic">见义勇为</string>
+    <string name="approval_continuous_reporting">连续报道</string>
+
+    <string name="approval_my_order_approval">我的订货审批</string>
+    <string name="approval_order_unit">订购单位</string>
+    <string name="approval_other_charger">对方负责人</string>
+    <string name="approval_order_date">订购日期</string>
+    <string name="approval_order">订购</string>
+    <string name="approval_product_name">产品名称</string>
+    <string name="approval_order_amout">订购数量</string>
+    <string name="approval_order_money">金额(元)</string>
+    <string name="approval_all_order_money">总金额(元) :</string>
+    <string name="approval_order_explain">订购说明</string>
+
+    <string name="approval_my_project_approval">我的立项申请</string>
+    <string name="approval_project_name">项目名称</string>
+    <string name="approval_project_summary">项目概述</string>
+    <string name="approval_expect_startTime">期望启动时间</string>
+    <string name="approval_people_require">人员需求</string>
+    <string name="approval_money_require">资金需求</string>
+    <string name="approval_budget">预算</string>
+    <string name="approval_butget_content">预算内容</string>
+    <string name="approval_budget_money">预算金额</string>
+    <string name="approval_plan_progress">计划进度</string>
+
+    <string name="approval_my_things_purchase">我的物品申购</string>
+    <string name="approval_detail">明细</string>
+    <string name="approval_things_name">物品名称</string>
+    <string name="approval_specifications_type">规格型号</string>
+    <string name="approval_please_input_specifications_type">请写明规格型号(选填)</string>
+    <string name="approval_single_money">单价(元)</string>
+    <string name="approval_things_all_money">总价(元)</string>
+    <string name="approval_usefully">用途</string>
+    <string name="approval_please_input_usefully_pass">请写清用途以便更快通过</string>
+    <string name="approval_all_all_money">总总价(元) :</string>
+
+    <string name="approval_my_wrok_ask">我的工作请示</string>
+    <string name="approval_please_input_reason">请填写事由(必填)</string>
+    <string name="approval_suspension">暂缓</string>
+    <string name="approval_specific_content">具体内容</string>
+    <string name="approval_please_input_specific_content">请填写请示的具体内容</string>
+    <string name="approval_reason">事由</string>
+
+    <string name="approval_my_qualifications_use">我的资质使用</string>
+    <string name="approval_qulifications_type">资质类别</string>
+    <string name="approval_qulifications_tpye_example">\"营业照、组织机构代码证、税务登记...\"</string>
+    <string name="approval_agent_department">经办人部门</string>
+    <string name="approval_whether_to_go">是否外带</string>
+    <string name="approval_need_to_go">需要外带</string>
+    <string name="approval_no_need_to_go">不需要外带</string>
+    <string name="approval_borrowing_time">借用时间</string>
+    <string name="approval_return_time">归还时间</string>
+    <string name="approval_usefully_reason">使用事由</string>
+
+    <array name="approval_pay_ways">
+        <item>请选择</item>
+        <item>支票</item>
+        <item>贷记</item>
+        <item>电汇</item>
+        <item>汇票</item>
+        <item>现金</item>
+        <item>银行卡</item>
+        <item>其他</item>
+    </array>
+    <array name="approval_pay_ways2">
+        <item>请选择</item>
+        <item>现金</item>
+        <item>汇票</item>
+        <item>支付宝</item>
+    </array>
+    <string-array name="approval_shop_types">
+        <item>请选择</item>
+        <item>办公用品</item>
+        <item> 生产原料</item>
+        <item>其他</item>
+    </string-array>
+
+
+    <string name="rdc_centor">研发中心</string>
+
+    <string name="account_safe">账号与安全</string>
+    <string name="account_protected">已保护</string>
+    <string name="msg_tip">新消息通知</string>
+    <string name="personal_private">隐私</string>
+    <string name="genenal">通用</string>
+    <string name="language_setting">语言设置</string>
+    <string name="set_about">关于E-平台</string>
+    <string name="set_logout">退出登录</string>
+
+
+    <string name="set_activity_set">设置</string>
+
+    <string name="home_page">动态</string>
+    <string name="message_page">消息</string>
+    <string name="work_page">工作</string>
+    <string name="contact_page">联系人</string>
+    <string name="me_page">我</string>
+
+    <string name="send_info">发送验证码</string>
+    <string name="set_psw">设置密码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="user_not_exist">该用户不存在！</string>
+    <string name="error_user_password">用户名或密码错误</string>
+
+    <string name="language_set">简体中文</string>
+
+    <string name="business_calls_set_page">商务电话</string>
+    <string name="collect_set_page">收藏</string>
+    <string name="aboat_set_page">关于</string>
+    <string name="invitation_set_page">邀请</string>
+    <string name="rookie_help_set_page">新手帮助</string>
+    <string name="set_page">设置</string>
+
+    <string name="my_photo">头像</string>
+    <string name="my_nick">姓名</string>
+    <string name="enterprise_information">企业信息</string>
+    <string name="my_name">姓名</string>
+    <string name="my_phone">手机</string>
+    <string name="department">部门</string>
+
+    <string name="mobile_address_book">手机通讯录</string>
+    <string name="good_friends">我的好友</string>
+    <string name="my_group">我的群组</string>
+    <string name="common_connect">常用联系人</string>
+
+    <string name="intelligence_reports">智能报表</string>
+    <string name="mobile_development">研发移动化</string>
+    <string name="terminal_development">终端开发</string>
+    <string name="construction_function">功能建设中</string>
+    <string name="sure_of">确定</string>
+    <string name="more_applications">更多应用</string>
+    <string name="my_informations">我的资料</string>
+    <string name="pull_to_refresh_pull_down_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_down_label">释放更新</string>
+    <string name="pull_to_refresh_refreshing_down_label">正在刷新…</string>
+    <string name="pull_to_refresh_pull_up_label">上拉查看更多</string>
+    <string name="pull_to_refresh_release_up_label">释放加载更多</string>
+    <string name="pull_to_refresh_refreshing_up_label">正在加载…</string>
+
+    <string name="error">异常</string>
+    <string name="buqian">补签卡</string>
+    <string name="retroactive_reason">补卡原因</string>
+    <string name="mandatory_input">(必填)</string>
+    <string name="total_accout">共计</string>
+    <string name="choose_contact">选择联系人</string>
+    <string name="go_out_business">外出公干</string>
+
+    <string name="cancle">取消</string>
+    <string name="bind_device">是否绑定该设备？</string>
+    <string name="device_binded_other">该设备已经被其它用户绑定！</string>
+    <string name="bind">绑定</string>
+    <string name="elead_connect_failed">网络连接失败,请检查网络是否可用!</string>
+    <string name="cc_people">抄送人</string>
+    <string name="paid_leave">调休</string>
+    <string name="paid_sick_leave">带薪病假</string>
+    <string name="annual_leave">年假</string>
+    <string name="holiday_line">假期额度</string>
+    <string name="the_use">本次使用</string>
+    <string name="network_not_connected">网络未链接!</string>
+
+
+    <!--环信-->
+    <string name="user_already_in_contactlist">此用户已是你好友(被拉黑状态)，从黑名单列表中移出即可</string>
+    <string name="group_nick">聊天室名称:</string>
+    <string name="group_owner">群主：</string>
+    <string name="call_version_inconsistent">通话协议版本不一致</string>
+    <string name="network_unstable">网络不稳定</string>
+    <string name="no_call_data">没有通话数据</string>
+    <string name="msg_someone_take_red_packet">%1$s领取了你的红包</string>
+    <string name="msg_take_red_packet">你领取了自己的红包</string>
+    <string name="msg_take_someone_red_packet">你领取了%1$s的红包</string>
+    <string name="easemob_red_packet">环信红包</string>
+    <string name="easemob_transfer_packet">[转账]转账%1$s元</string>
+    <string name="msg_transfer_to_you">[转账]向你转账%1$s元</string>
+    <string name="msg_transfer_from_you">[转账]转账%1$s元</string>
+    <!-- lint -->
+
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确认</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+
+    <string name="my_friends">我的好友</string>
+    <string name="new_friend">新朋友</string>
+
+
+    <string name="The_other_party_is_not_online">对方不在线，请稍后再拨……</string>
+    <string name="The_other_is_on_the_phone_please">对方正在通话中，请稍后再拨</string>
+    <string name="The_other_is_hang_up">对方已经挂断</string>
+    <string name="The_other_party_did_not_answer_new">对方未接听</string>
+    <string name="Have_downloaded">已下载</string>
+    <string name="Did_not_download">未下载</string>
+    <string name="Has_agreed_to_your_friend_request">已同意你的好友请求</string>
+    <string name="Request_to_add_you_as_a_friend">请求加你为好友</string>
+    <string name="Apply_to_the_group_of">申请加入群：</string>
+    <string name="invite_join_group">邀请加入群：</string>
+    <string name="Has_agreed_to">已同意</string>
+    <string name="Has_refused_to">已拒绝</string>
+    <string name="Are_agree_with">正在同意……</string>
+    <string name="Are_refuse_with">正在拒绝……</string>
+    <string name="direct_call">Direct</string>
+    <string name="relay_call">Relay</string>
+    <string name="Agree_with_failure">同意失败:</string>
+    <string name="Refuse_with_failure">拒绝失败:</string>
+    <string name="Is_download_voice_click_later">正在下载语音，稍后点击</string>
+
+
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="button_send">发送</string>
+    <string name="attach_smile">表情</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    <string name="send_fail">发送消息失败,</string>
+    <string name="delete_message">删除消息</string>
+    <string name="delete_conversation_messages">删除会话和消息</string>
+    <string name="delete_conversation">删除会话</string>
+    <string name="copy_message">复制消息</string>
+    <string name="delete_voice">删除语音</string>
+    <string name="delete_video">删除视频</string>
+    <string name="delete">删除</string>
+    <string name="sure_delete_friend">将联系人%s删除,将同时删除与该联系人的聊天记录</string>
+    <string name="resend">重发</string>
+    <string name="confirm_resend">确认重发该信息？</string>
+    <string name="connect_failuer_toast">请检查网络或稍候重试</string>
+    <string name="network_unavailable">网络连接不可用，请检查网络</string>
+    <string name="forward">转发</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">提示</string>
+    <string name="location_recv">[%1$s的位置]</string>
+    <string name="recording_video">录制视频</string>
+    <string name="location_prefix">[我的位置]</string>
+    <string name="picture">[图片]</string>
+    <string name="video">[视频]</string>
+    <string name="file">[文件]</string>
+    <string name="voice_prefix">[语音]</string>
+    <string name="voice_call">[语音通话]</string>
+    <string name="video_call">[视频通话]</string>
+    <string name="dynamic_expression">[动态表情]</string>
+    <string name="button_search">查找</string>
+    <string name="button_add">添加</string>
+    <string name="recoding_fail">录音失败，请重试！</string>
+    <string name="select_contacts">选择联系人</string>
+    <string name="confirm_forward_to">确定转发到：%1$s ?</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_hint">退出后不会删除任何历史数据，下次登录依然可以使用本账号</string>
+    <string name="exit_group_hint">退出后，将不再接收此群聊信息</string>
+    <string name="dissolution_group_hint">退出后，此群将被解散</string>
+    <string name="exit_group">退出</string>
+    <string name="now_refresh_list">正在刷新联系人</string>
+    <string name="group_chat">群聊</string>
+    <string name="add_friend">添加好友</string>
+    <string name="search">搜索</string>
+    <string name="The_new_group_chat">新建群组</string>
+    <string name="add_public_group_chat">添加公开群</string>
+    <string name="search_public_group_chat">搜索公开群</string>
+    <string name="group_name">群聊名称</string>
+    <string name="Group_chat_profile">群聊简介</string>
+    <string name="Whether_the_public">是否公开</string>
+    <string name="Open_group_members_invited">开放群成员邀请</string>
+    <string name="blacklist">黑名单列表</string>
+    <string name="Empty_the_chat_record">清空聊天记录</string>
+    <string name="Shielding_of_the_message">屏蔽群消息</string>
+    <string name="dismiss_group">解散群聊</string>
+    <string name="Group_of_Lord">群主:</string>
+    <string name="Introduction">简介:</string>
+    <string name="To_join_the_chat">加入群聊</string>
+    <string name="mute">静音</string>
+    <string name="Hands_free">免提</string>
+    <string name="hang_up">挂断</string>
+    <string name="answer">接听</string>
+    <string name="newchat">新建聊天</string>
+    <string name="agree">同意</string>
+    <string name="Please_enter_a_username">请输入用户名</string>
+    <string name="please_enter_a_groupname">请输入群组名</string>
+    <string name="is_down_please_wait">正在下载视频请稍候</string>
+    <string name="Exit_the_group_chat">删除并退出</string>
+    <string name="all_members">所有成员</string>
+
+    <string name="not_add_myself">不能添加自己</string>
+    <string name="This_user_is_already_your_friend">此用户已是你的好友</string>
+    <string name="Add_a_friend">加个好友呗</string>
+    <string name="send_successful">发送请求成功,等待对方验证</string>
+    <string name="Request_add_buddy_failure">请求添加好友失败:</string>
+    <string name="Removed_from_the_failure">移出失败</string>
+    <string name="call_duration">通话时长</string>
+    <string name="Refused">已拒绝</string>
+    <string name="The_other_party_has_refused_to">对方已拒绝</string>
+    <string name="The_other_is_not_online">对方不在线</string>
+    <string name="The_other_is_on_the_phone">对方正在通话中</string>
+    <string name="The_other_party_did_not_answer">对方未接听</string>
+    <string name="did_not_answer">未接听</string>
+    <string name="Has_been_cancelled">已取消</string>
+    <string name="unable_to_get_loaction">无法获取到您的位置信息!</string>
+    <string name="not_connect_to_server">尚未连接至服务器，请稍后重试</string>
+    <string name="sd_card_does_not_exist">SD卡不存在，不能拍照</string>
+    <string name="cant_find_pictures">找不到图片</string>
+    <string name="File_does_not_exist">文件不存在</string>
+    <string name="The_file_is_not_greater_than_10_m">文件不能大于10M</string>
+    <string name="Whether_to_empty_all_chats">是否清空所有聊天记录</string>
+    <string name="Send_voice_need_sdcard_support">发送语音需要sdcard支持</string>
+    <string name="Recording_without_permission">无录音权限</string>
+    <string name="The_recording_time_is_too_short">录音时间太短</string>
+    <string name="send_failure_please">发送失败，请检测服务器是否连接</string>
+    <string name="Move_into_blacklist_success">移入黑名单成功</string>
+    <string name="Move_into_blacklist_failure">移入黑名单失败</string>
+    <string name="you_are_group">你被群创建者从此群中移除</string>
+    <string name="the_current_group">当前群聊已被群创建者解散</string>
+    <string name="Cant_chat_with_yourself">不能和自己聊天</string>
+    <string name="deleting">正在删除……</string>
+    <string name="Delete_failed">删除失败:</string>
+    <string name="Is_moved_into_blacklist">正在移入黑名单……</string>
+    <string name="get_failed_please_check">获取失败,请检查网络或稍后再试</string>
+    <string name="people">人)</string>
+    <string name="being_added">正在添加……</string>
+    <string name="is_quit_the_group_chat">正在退出群聊……</string>
+    <string name="chatting_is_dissolution">正在解散群聊……</string>
+    <string name="are_empty_group_of_news">正在清空群消息……</string>
+    <string name="is_modify_the_group_name">正在修改群名称……</string>
+    <string name="Modify_the_group_name_successful">修改群名称成功</string>
+    <string name="change_the_group_name_failed_please">改变群名称失败，请检查网络或稍后重试</string>
+    <string name="Are_moving_to_blacklist">正在移入至黑名单</string>
+    <string name="failed_to_move_into">移入黑名单失败,请检查网络或稍后重试</string>
+    <string name="Exit_the_group_chat_failure">退出群聊失败:</string>
+    <string name="Dissolve_group_chat_tofail">解散群聊失败:</string>
+    <string name="Add_group_members_fail">添加群成员失败:</string>
+    <string name="Is_unblock">正在解除屏蔽……</string>
+    <string name="remove_group_of">解除群屏蔽失败，请检查网络或稍后重试</string>
+    <string name="group_is_blocked">正在屏蔽群组……</string>
+    <string name="group_of_shielding">群屏蔽失败，请检查网络或稍后重试</string>
+    <string name="sure_to_empty_this">确定清空此群的聊天记录吗？</string>
+    <string name="The_delete_button_is_clicked">删除按钮被点击</string>
+    <string name="Add_a_button_was_clicked">添加按钮被点击</string>
+    <string name="not_delete_myself">不能删除自己</string>
+    <string name="Are_removed">正在移除……</string>
+    <string name="confirm_the_members">确认将此成员加入至此群黑名单?</string>
+    <string name="Failed_to_get_group_chat_information">获取群聊信息失败:</string>
+    <string name="Is_sending_a_request">正在发送请求……</string>
+    <string name="Request_to_join">请求加入</string>
+    <string name="send_the_request_is">发送请求成功，等待群主同意</string>
+    <string name="Join_the_group_chat">加入群聊成功</string>
+    <string name="Failed_to_join_the_group_chat">加入群聊失败:</string>
+    <string name="have_you_removed">已把你从他好友列表里移除</string>
+    <string name="can_not_connect_chat_server_connection">连接不到聊天服务器</string>
+    <string name="the_current_network">当前网络不可用，请检查网络设置</string>
+    <string name="Invite_you_to_join_a_group_chat">邀请你加入了群聊</string>
+    <string name="Agreed_to_your_group_chat_application">同意了你的群聊申请</string>
+    <string name="Group_name_cannot_be_empty">群组名称不能为空</string>
+    <string name="Is_to_create_a_group_chat">正在创建群聊……</string>
+    <string name="Failed_to_create_groups">创建群组失败:</string>
+    <string name="Download_the_pictures">下载图片: 0%</string>
+    <string name="Download_the_pictures_new">下载图片:</string>
+    <string name="Are_connected_to_each_other">正在连接对方……</string>
+    <string name="Is_not_yet_connected_to_the_server">尚未连接至服务器</string>
+    <string name="have_connected_with">已经和对方建立连接，等待对方接受……</string>
+    <string name="In_the_call">通话中……</string>
+    <string name="The_other_party_refused_to_accept">对方拒绝接受！……</string>
+    <string name="Connection_failure">连接建立失败！……</string>
+
+
+    <string name="Change_the_group_name">群名称</string>
+    <string name="group_qr_code">群二维码</string>
+    <string name="group_announcement">群公告</string>
+    <string name="chat_top">置顶聊天</string>
+    <string name="message_disturb">消息免打扰</string>
+    <string name="chat_pictrue">聊天图片</string>
+    <string name="chat_file">聊天文件</string>
+    <string name="chat_details">聊天详情</string>
+    <string name="failed_to_load_data">加载数据失败，请检查网络或稍后重试</string>
+
+    <string name="no_more_messages">没有更多的消息了</string>
+    <string name="gorup_not_found">找不到这个群组</string>
+    <string name="group_id">群ID</string>
+    <string name="move_out_backlist">移出黑名单</string>
+    <string name="group_not_existed">群组不存在</string>
+    <string name="group_search_failed">搜索失败</string>
+    <string name="error_send_invalid_content">你发送了不合法的消息内容</string>
+    <string name="error_send_not_in_the_group">你已经不在此群了</string>
+    <string name="searching">正在搜索..</string>
+    <string name="hanging_up">正在挂断..</string>
+    <string name="illegal_user_name">用户名不合法</string>
+    <string name="dl_update_nick">更新昵称</string>
+    <string name="dl_waiting">请等待……</string>
+    <string name="toast_updatenick_success">更新昵称成功!</string>
+    <string name="toast_updatenick_fail">更新昵称失败!</string>
+
+
+    <string name="search_contanier">搜索："%s"</string>
+    <string name="switch_camera">切换摄像头</string>
+    <string name="capture_image">抓取图片</string>
+    <string name="join_need_owner_approval">加入公开群需要群主同意</string>
+    <string name="serach_group_message">消息搜索</string>
+    <string name="refuse">拒绝</string>
+    <string name="accept_join_group">同意加入群：</string>
+    <string name="refuse_join_group">拒绝加入群：</string>
+    <string name="at_your_in_group">%s在群聊中@了你</string>
+    <string name="im_group_elead_name">上海易立德企业咨询有限公司</string>
+
+    <!--绑定银行卡-->
+
+    <!--提现-->
+
+
+    <string name="messages_are_empty">Messages has been cleared</string>
+    <string name="chat_room">聊天室</string>
+    <string name="Open_group_chat">公开的群聊</string>
+    <string name="good_friend_validation">朋友验证</string>
+
+    <string name="ease_new_friend">新的好友</string>
+    <string name="ease_new_friend_invite">新的好友推荐</string>
+    <string name="ease_invite">邀请</string>
+
+    <string name="info_detail">详细信息</string>
+    <string name="send_msg">发消息</string>
+    <string name="add_contact">添加为联系人</string>
+    <string name="number">工号</string>
+    <string name="email">电子邮箱</string>
+    <string name="phone">手机号码</string>
+    <string name="qr_code_title">E平台-二维码名片</string>
+
+    <string name="request_fail">请求失败,请重试!</string>
+    <string name="resolve_fail">json解析失败!</string>
+    <string name="user_search">用户名搜索</string>
+    <string name="my_qrcode">我的二维码</string>
+
+
+    <string name="scan_qrcode">扫描二维码名片</string>
+    <string name="phone_contact">手机联系人</string>
+    <string name="invit_contact">添加或邀请手机通讯录中的朋友</string>
+    <string name="warm_reminder">温馨提醒</string>
+    <string name="no_registered">此人还没注册</string>
+    <string name="if_add_friend">是否添加其为好友</string>
+    <string name="not_identify_qrcode">未识别的二维码</string>
+    <string name="must_input_yanzhen">验证输入不能为空，请输入</string>
+    <string name="quality_summary">质量汇总</string>
+    <string name="next_day">后一天</string>
+    <string name="pre_day">前一天</string>
+    
+    <!-- 研发移动化 -->
+    <array name="md_main_foot">
+        <item>项目</item>
+        <item>资源</item>
+        <item>动态</item>
+    </array>
+    <string name="md_weekly">周报</string>
+    <string name="md_problem">问题</string>
+    <string name="md_risk">风险</string>
+</resources>
+

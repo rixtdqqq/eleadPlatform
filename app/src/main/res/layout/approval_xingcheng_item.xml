@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_xingcheng_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:paddingBottom="@dimen/card_padding_Left"
+            android:paddingTop="@dimen/card_padding_Left"
+            android:text="行程明细(1)"
+            android:textColor="@color/fontcolors5"
+            android:textSize="@dimen/approval_tip_textsize" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="删除行程"
+            android:textColor="@color/qianlv"
+            android:textSize="@dimen/approval_tip_textsize" />
+    </RelativeLayout>
+
+    <com.elead.approval.widget.EdiTextItem
+        android:id="@+id/ed_chuchaididian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.elead.approval.widget.ChooseView
+        android:id="@+id/ct_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.elead.approval.widget.ChooseView
+        android:id="@+id/ct_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E7ED"
+    android:orientation="vertical">
+    <!--
+        <RelativeLayout
+            android:id="@+id/relat_title_id"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:id="@+id/my_information_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/actionbar_home_indicator_black"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="25dp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dp"
+
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="我的资料"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="#999999" />
+
+        </RelativeLayout>-->
+    <com.elead.views.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#ffffff">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@drawable/actionbar_line_black"
+
+                    ></View>
+
+                <RelativeLayout
+                    android:id="@+id/rel_photo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/white_bg_selector">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/my_photo"
+                        android:textColor="@color/fontcolors2"
+                        android:textSize="14dp" />
+
+
+                    <ImageView
+                        android:id="@+id/back_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="15dp"
+                        android:src="@drawable/right_arrow" />
+
+                    <com.elead.views.CircularImageView
+                        android:id="@+id/photo_id"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/back_id"
+                        android:clickable="true"
+                        android:src="@drawable/head"
+                        app:selector="true"
+                        app:selector_color="#44FFBB33"
+                        app:selector_stroke_color="#aa5677fc"
+                        app:selector_stroke_width="1dp"
+                        app:shadow="true" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/actionbar_line_black"
+
+
+                        ></View>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_name_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/rel_photo_id"
+                    android:background="@drawable/white_bg_selector">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/my_nick"
+                        android:textColor="@color/fontcolors2"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/nick_name_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawablePadding="12dp"
+                        android:drawableRight="@drawable/right_arrow"
+                        android:paddingRight="12dp"
+
+                        android:textColor="@color/fontcolors4"
+                        android:textSize="14dp" />
+
+
+                </RelativeLayout>
+                <!--<View
+                     android:layout_width="match_parent"
+                     android:layout_height="0.5dp"
+                     android:layout_alignParentBottom="true"
+                     android:layout_marginLeft="12dp"
+                     android:background="@drawable/actionbar_line_black"
+                     ></View>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#ffffff"
+
+                >
+
+                <RelativeLayout
+                    android:id="@+id/rel_gender_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/enterprise_information"
+                        android:textColor="#2177C7"
+                        android:textSize="15dp" />
+
+                    <!--  <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentRight="true"
+                          android:layout_centerVertical="true"
+                          android:drawablePadding="12dp"
+                          android:drawableRight="@drawable/right_arrow"
+                          android:paddingRight="12dp"
+                          android:text="女"
+                          android:textColor="#000000"
+                          android:textSize="18dp" />
+          -->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/actionbar_line_black"
+
+
+                        ></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_user_name_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/rel_gender_id"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/my_name"
+                        android:textColor="@color/fontcolors2"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/usernameId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawablePadding="12dp"
+
+                        android:paddingRight="12dp"
+
+                        android:textColor="@color/fontcolors4"
+
+                        android:textSize="14dp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/actionbar_line_black"
+
+
+                        ></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel_phone_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/rel_user_name_id"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/phone_tex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawablePadding="12dp"
+
+                        android:paddingRight="12dp"
+
+                        android:textColor="@color/fontcolors4"
+                        android:textSize="18dp" />
+
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12dp"
+
+
+                        android:background="@drawable/actionbar_line_black"></View>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/view"
+                        android:layout_alignStart="@+id/view"
+                        android:layout_alignTop="@+id/phone_tex"
+                        android:text="@string/my_phone"
+                        android:textColor="@color/fontcolors2"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/rel_phone_id">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/department"
+                        android:textColor="@color/fontcolors2"
+                        android:textSize="14dp" />
+
+                    <!--
+
+                                <ImageView
+                                    android:id="@+id/back_item_id"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:padding="15dp"
+                                    android:src="@drawable/right_arrow" />
+                    -->
+
+                    <TextView
+                        android:id="@+id/partment_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:paddingRight="12dp"
+                        android:textColor="@color/fontcolors4"
+                        android:textSize="14dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/actionbar_line_black"
+
+
+                        ></View>
+
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="18dp"
+                 android:background="#ffffff">
+
+             </RelativeLayout>
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="0.5dp"
+
+
+                     android:background="@drawable/actionbar_line_black"
+
+
+                     ></View>
+
+                 <RelativeLayout
+                      android:id="@+id/rel_signname"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerVertical="true"
+                         android:layout_marginLeft="12dp"
+                         android:text="个性签名"
+                         android:textColor="@color/fontcolors4"
+                         android:textSize="18dp" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentRight="true"
+                         android:layout_centerVertical="true"
+                         android:layout_marginRight="25dp"
+                         android:text="钉钉"
+                         android:textColor="#000000"
+                         android:textSize="18dp" />
+
+                     <View
+                         android:layout_width="match_parent"
+                         android:layout_height="0.5dp"
+                         android:layout_alignParentBottom="true"
+                         android:layout_marginLeft="12dp"
+                         android:background="@drawable/actionbar_line_black"></View>
+
+                 </RelativeLayout>
+         -->
+        </LinearLayout>
+
+    </com.elead.views.MyScrollView>
+</LinearLayout>

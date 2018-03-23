@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/line_top"
+            android:layout_width="0.5dp"
+            android:layout_height="32dp"
+            android:background="@color/develop_tb_line"
+            android:layout_gravity="center|top"
+            />
+
+        <TextView
+            android:id="@+id/tv_up_card_type"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_gravity="center"
+            android:background="@drawable/up_card_circel_child_bg"
+            android:enabled="false"
+            android:gravity="center"
+            android:textColor="@color/develop_tb_line"
+            />
+
+        <View
+            android:id="@+id/line_bottom"
+            android:layout_width="0.5dp"
+            android:layout_height="32dp"
+            android:background="@color/up_card_2dbcdf"
+            android:layout_gravity="center|top"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center|bottom|left"
+            android:gravity="center|bottom|left"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/tv_up_card_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/px42"
+                android:text="普通打卡"
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:textColor="@color/up_card_212121"/>
+
+            <TextView
+                android:id="@+id/tv_up_card_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/px42"
+                android:layout_marginLeft="6dp"
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:textColor="@color/up_card_212121"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="-5dp"
+            >
+            
+            <ImageView
+                android:id="@+id/img_location"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/tv_up_card_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:textColor="@color/fontcolors4"
+                android:textSize="@dimen/px36"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

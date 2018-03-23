@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_un_punch_the_clock"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/white_bg_selector"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left|top"
+                android:text="@string/pubch_the_clock"
+                android:textColor="#333333"
+                android:textSize="@dimen/px54" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center|left|bottom"
+                android:text="@string/welcome_punch_the_clock"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/approval_textsize" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.elead.upcard.view.RipAnimView
+        android:id="@+id/img_punch_the_clock"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+</LinearLayout>

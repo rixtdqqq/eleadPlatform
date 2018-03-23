@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_reimbursement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.elead.approval.widget.ReimbursementLayout
+            android:id="@+id/ll_reimbursement_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.elead.approval.widget.ReimbursementLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/approval_common_add_layout"/>
+
+    <!--<LinearLayout
+        android:id="@+id/ll_add"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/approval_select_bg"
+        >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_actbar_more"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/approval_textsize"
+            android:textColor="@color/elead_3ea9f3"
+            android:text="@string/approval_add_reimbursement_detail"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center|left"
+        android:gravity="center|left"
+        android:background="@color/big_line_bg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxWidth="120dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="@string/approval_total"
+            android:textSize="@dimen/approval_textsize"
+            android:layout_gravity="center|left"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:maxWidth="120dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="100"
+            android:textSize="@dimen/approval_textsize"
+            android:layout_gravity="center|left"
+            android:gravity="center|left"/>
+
+    </LinearLayout>
+
+</LinearLayout>

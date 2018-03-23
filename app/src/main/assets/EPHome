@@ -1,0 +1,135 @@
+{
+    "cards": [
+              {
+              "cardType": "AdvertCard",
+              "cardTitle": "广告效果图",
+              "cardDetail": {
+              "cardIndex": "1"
+              },
+              "cardHeight": "140"
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoRightPicCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "1"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoRightPicCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "2"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoRightPicCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "3"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoThreePicsCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "1"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoRightPicCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "5"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoThreePicsCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "2"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoRightPicCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "6"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoThreePicsCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "3"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "InfoThreePicsCard",
+              "cardTitle": "",
+              "cardDetail": {
+              "cardIndex": "4"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              }
+              ]
+}

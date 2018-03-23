@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.elead.views.PhoneContactList xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/address_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:ctsListInitialLetterBg="@color/big_line_bg"
+    app:ctsListInitialLetterColor="@color/fontcolors7"
+    app:ctsListPrimaryTextColor="#666666"
+    app:ctsListPrimaryTextSize="10sp" />

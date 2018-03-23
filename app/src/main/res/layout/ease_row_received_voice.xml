@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_userhead"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            >
+            <com.elead.views.CircularImageView
+                android:id="@+id/iv_userhead"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_toRightOf="@id/ll_userhead"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/tv_userid"
+            android:background="@drawable/im_chatbg_from"
+            >
+
+            <ImageView
+                android:id="@+id/iv_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+	            android:paddingRight="12dp"
+	            android:layout_centerInParent="true"
+                android:src="@drawable/im_chat_voice" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/bubble"
+            android:layout_alignTop="@id/bubble"
+            android:gravity="center"
+            android:text="3&apos;&apos;"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/iv_unread_voice"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_length"
+            android:background="@drawable/im_unread_point" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_toRightOf="@id/iv_unread_voice"
+            android:visibility="invisible" />
+
+         <TextView
+            android:id="@+id/tv_userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:textSize="13sp"
+            android:layout_toRightOf="@id/ll_userhead"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

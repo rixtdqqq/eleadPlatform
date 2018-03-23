@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/qianlv">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imb_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/tranpant_bg_selector"
+            android:scaleType="centerInside"
+            android:src="@drawable/operation_back" />
+
+
+        <TextView
+            android:id="@+id/btn_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/card_padding_Top"
+            android:gravity="center"
+            android:text="考勤"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/px54" />
+
+        <ImageButton
+            android:id="@+id/imb_right"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tranpant_bg_selector"
+            android:scaleType="centerInside"
+            android:src="@drawable/gerenxinxi" />
+
+    </RelativeLayout>
+</LinearLayout>

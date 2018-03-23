@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/shoose_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_change_mobile"/>
+
+    <ImageButton
+        android:id="@+id/delete_img"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="right|bottom"
+        android:background="@null"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/delete_c"/>
+</FrameLayout>

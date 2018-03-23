@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_up_card_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.elead.upcard.view.RipAnimView2
+        android:id="@+id/sign_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/qianlv" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sign_view"
+        android:background="@drawable/white_bg_selector"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:paddingLeft="@dimen/card_padding_Top"
+        android:paddingRight="@dimen/card_padding_Top">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="打卡记录"
+            android:textColor="@color/fontcolors4"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/btn_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="2016/12/02"
+            android:textColor="@color/fontcolors9"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/small_line_bg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+
+        <Button
+            android:id="@+id/btn_err_upcard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_bg_selector"
+            android:drawableTop="@drawable/yichang"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="异常"
+            android:textColor="@color/fontcolors7"
+            android:textSize="@dimen/px42" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/fontcolors5" />
+
+        <Button
+            android:id="@+id/btn_my_apply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_bg_selector"
+            android:drawableTop="@drawable/shenpi"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="申请"
+            android:textColor="@color/fontcolors7"
+            android:textSize="@dimen/px42" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/fontcolors5" />
+
+        <Button
+            android:id="@+id/btn_peie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_bg_selector"
+            android:drawableTop="@drawable/peie"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:text="配额"
+            android:textColor="@color/fontcolors7"
+            android:textSize="@dimen/px42" />
+    </LinearLayout>
+</LinearLayout>

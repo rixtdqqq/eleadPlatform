@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding_Left">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新定义移动互联网"
+        android:textColor="@color/white"
+        android:textSize="@dimen/card_title_size" />
+
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/img_right"
+        android:text="金属一体化机身,精雕细琢 内外皆美;一气呵成的机"
+        android:textColor="@color/fontcolors3"
+        android:textSize="@dimen/card_content_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rdc_img8" />
+
+        <ImageView
+            android:id="@+id/img_center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/img_margin"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rdc_img7" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/img_margin"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rdc_img6" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

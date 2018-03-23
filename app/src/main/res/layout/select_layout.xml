@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gen_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_bg_selector"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/card_padding_Top">
+
+    <com.elead.views.CircularImageView
+        android:id="@+id/cmg_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/my_group" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_padding_Top"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="@string/my_group"
+        android:textColor="@color/fontcolors8"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/img_right"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/list_item_po_arrow_right" />
+</LinearLayout>

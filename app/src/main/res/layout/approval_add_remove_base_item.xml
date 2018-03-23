@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Mingxing_item_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_selector">
+
+        <TextView
+            android:id="@+id/tv_xingcheng_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:paddingBottom="@dimen/card_padding_Left"
+            android:paddingTop="@dimen/card_padding_Left"
+            android:text="行程明细(1)"
+            android:textColor="@color/fontcolors5"
+            android:textSize="@dimen/approval_tip_textsize" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_xingcheng_tip"
+            android:layout_alignBottom="@+id/tv_xingcheng_tip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/tranpant_bg_selector"
+            android:text="删除"
+            android:textColor="@color/qianlv"
+            android:textSize="@dimen/approval_tip_textsize" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_continer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

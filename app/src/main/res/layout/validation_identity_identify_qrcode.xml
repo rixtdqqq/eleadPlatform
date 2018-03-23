@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/develop_tb_line">
+
+        <ImageButton
+            android:id="@+id/back_bt_id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/tranpant_bg_selector"
+            android:scaleType="centerInside"
+            android:src="@drawable/operation_back"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/good_friend_validation"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/title_textsize" />
+
+        <com.elead.views.ImageTextView
+            android:id="@+id/im_img_right_id"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tranpant_bg_selector"
+            android:scaleType="centerInside" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="你需要发送验证申请,等待对方通过"
+        android:padding="15dp"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_selector"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_validation_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:focusable="true"
+            android:hint=""
+            android:padding="15dp" />
+
+        <ImageView
+            android:id="@+id/delete_bt_id"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:padding="15dp"
+            android:visibility="invisible"
+            android:src="@drawable/delete_bt" />
+
+    </LinearLayout>
+
+</LinearLayout>

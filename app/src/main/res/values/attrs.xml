@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bgcolor" format="color" />
+    <attr name="tvcolor" format="color" />
+    <attr name="developbgcolor" format="color" />
+    <attr name="develop_back_selector" format="color" />
+    <attr name="other_back_selector" format="color" />
+
+    <declare-styleable name="JerryChartView">
+        <!-- 分割线颜色（应与背景色一致） -->
+        <attr name="lineColor" format="reference|color" />
+        <!-- 分割线宽度 -->
+        <attr name="lineWidth" format="dimension" />
+        <!-- 突出部分圆心距离原位置的圆心（仅扇形有效） -->
+        <attr name="distance" format="dimension" />
+        <!-- 百分比文本大小 -->
+        <attr name="android:textSize" />
+        <!-- 起始绘制角度 3点方向为0，默认为12点方向（-90） -->
+        <attr name="startAngle" format="float" />
+        <!-- 扇形or环形 -->
+        <attr name="chartStyle">
+            <enum name="FANSHAPE" value="0" />
+            <enum name="ANNULAR" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="JazzyViewPager">
+        <attr name="style">
+            <enum name="standard" value="0" />
+            <enum name="tablet" value="1" />
+            <enum name="cubein" value="2" />
+            <enum name="cubeout" value="3" />
+            <enum name="flipvertical" value="4" />
+            <enum name="fliphorizontal" value="5" />
+            <enum name="stack" value="6" />
+            <enum name="zoomin" value="7" />
+            <enum name="zoomout" value="8" />
+            <enum name="rotateup" value="9" />
+            <enum name="rotatedown" value="10" />
+            <enum name="accordion" value="11" />
+        </attr>
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="outlineEnabled" format="boolean" />
+        <attr name="outlineColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ContactItemView">
+        <attr name="contactItemImage" format="reference" />
+        <attr name="contactHeaderName" format="string" />
+        <attr name="contactItemName" format="string" />
+        <attr name="contactItemSignatureName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectRotateRightLayout">
+        <attr name="leftImage" format="reference" />
+        <attr name="centerText" format="string" />
+    </declare-styleable>
+
+    <!-- CircularImageView for custom shape -->
+    <declare-styleable name="CircularImageView">
+        <!-- Specifies whether or not to draw a circular border around the image. -->
+        <attr name="border" format="boolean" />
+        <!-- Specifies the color of the border draw around the image. (if enabled) -->
+        <attr name="border_color" format="color" />
+        <!-- Makes the border this pixels wide. (if enabled) -->
+        <attr name="border_width" format="dimension" />
+        <!-- Specifies whether or not to draw a selector on this view upon touch events. -->
+        <attr name="selector" format="boolean" />
+        <!-- Specifies the color of the selector draw on top of the image upon touch events. (if enabled) -->
+        <attr name="selector_color" format="color" />
+        <!-- Specifies the color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) -->
+        <attr name="selector_stroke_color" format="color" />
+        <!-- Makes the selector stroke drawn around the image upon touch events this pixels wide. (if enabled) -->
+        <attr name="selector_stroke_width" format="dimension" />
+        <!-- Specifies whether or not to draw a shadow around your circular image. -->
+        <attr name="shadow" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomCircularImageViewTheme">
+        <attr name="circularImageViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="string" />
+        <attr name="layout_heightPercent" format="string" />
+
+        <attr name="layout_marginPercent" format="string" />
+        <attr name="layout_marginLeftPercent" format="string" />
+        <attr name="layout_marginTopPercent" format="string" />
+        <attr name="layout_marginRightPercent" format="string" />
+        <attr name="layout_marginBottomPercent" format="string" />
+        <attr name="layout_marginStartPercent" format="string" />
+        <attr name="layout_marginEndPercent" format="string" />
+
+        <attr name="layout_textSizePercent" format="string" />
+
+        <attr name="layout_maxWidthPercent" format="string" />
+        <attr name="layout_maxHeightPercent" format="string" />
+        <attr name="layout_minWidthPercent" format="string" />
+        <attr name="layout_minHeightPercent" format="string" />
+
+        <attr name="layout_paddingPercent" format="string" />
+        <attr name="layout_paddingTopPercent" format="string" />
+        <attr name="layout_paddingBottomPercent" format="string" />
+        <attr name="layout_paddingLeftPercent" format="string" />
+        <attr name="layout_paddingRightPercent" format="string" />
+
+    </declare-styleable>
+
+    <!-- tab控件环形进度条 -->
+    <declare-styleable name="CustomViewPagerTab">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadMoreItem">
+        <attr name="topColor" format="color" />
+        <attr name="bottomColor" format="color" />
+        <attr name="lineColors" format="color" />
+        <attr name="drawSrc" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageViewo">
+        <attr name="fillColor" format="color"></attr>
+    </declare-styleable>
+
+    <!-- 自定义圆角图片 -->
+    <declare-styleable name="CircleImageViewBase">
+        <attr name="borders_width" format="dimension" />
+        <attr name="borders_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RippleLayout">
+        <attr name="color_bg" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNums" format="integer" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+    <declare-styleable name="EaseChatMessageList">
+        <attr name="msgListMyBubbleBackground" format="reference" />
+        <attr name="msgListOtherBubbleBackground" format="reference" />
+        <attr name="msgListShowUserAvatar" format="boolean" />
+        <attr name="msgListShowUserNick" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="EaseChatExtendMenu">
+        <attr name="numColumns" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EaseConversationList">
+        <attr name="cvsListPrimaryTextColor" format="color" />
+        <attr name="cvsListSecondaryTextColor" format="color" />
+        <attr name="cvsListTimeTextColor" format="color" />
+        <attr name="cvsListPrimaryTextSize" format="dimension" />
+        <attr name="cvsListSecondaryTextSize" format="dimension" />
+        <attr name="cvsListTimeTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="EaseContactList">
+        <attr name="ctsListPrimaryTextColor" format="color" />
+        <attr name="ctsListPrimaryTextSize" format="dimension" />
+        <attr name="ctsListShowSiderBar" format="boolean" />
+        <attr name="ctsListInitialLetterBg" format="reference|color" />
+        <attr name="ctsListInitialLetterColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="EaseEmojiconMenu">
+        <attr name="bigEmojiconRows" format="integer" />
+        <attr name="emojiconColumns" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EaseTitleBar">
+        <attr name="titleBarTitle" format="string" />
+        <attr name="titleBarLeftImage" format="reference" />
+        <attr name="titleBarRightImage" format="reference" />
+        <attr name="titleBarBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="EaseSwitchButton">
+        <attr name="switchOpenImage" format="reference" />
+        <attr name="switchCloseImage" format="reference" />
+        <attr name="switchStatus">
+            <enum name="open" value="0" />
+            <enum name="close" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="EaseImageView">
+        <attr name="ease_border_color" format="color" />
+        <attr name="ease_border_width" format="dimension" />
+        <attr name="ease_press_alpha" format="integer" />
+        <attr name="ease_press_color" format="color" />
+        <attr name="ease_radius" format="dimension" />
+        <attr name="ease_shape_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="textSize" format="dimension" />
+        <attr name="textColorOut" format="color" />
+        <attr name="textColorCenter" format="color" />
+        <attr name="dividerColor" format="color" />
+    </declare-styleable>
+</resources>

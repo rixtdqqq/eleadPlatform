@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.elead.card.views.CalendarItemView
+        android:id="@+id/calendaritemview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E7E7E7">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/produce_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/produce_destroy_img" />
+
+            <TextView
+                android:id="@+id/produce_destroy_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/produce_img"
+                android:text="产品缺陷总数"
+                android:textColor="#768799"
+                android:textSize="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/produce_destroy_title_id"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/produce_img"
+                android:text="495"
+                android:textColor="#000547"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/solute_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/soulute_number_img" />
+
+            <TextView
+                android:id="@+id/solute_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/solute_img"
+                android:text="待解决个数"
+                android:textColor="#768799"
+                android:textSize="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/solute_title_id"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/solute_img"
+                android:text="0"
+                android:textColor="#000547"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/averge_time_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/averge_deal_time" />
+
+            <TextView
+                android:id="@+id/averge_time_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/averge_time_img"
+                android:text="解决平均处理周期"
+                android:textColor="#768799"
+                android:textSize="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/averge_time_title_id"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/averge_time_img"
+                android:text="19天"
+                android:textColor="#000547"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/delivery_quality_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/actutally_time_img" />
+
+            <TextView
+                android:id="@+id/delivery_quality_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/delivery_quality_img"
+                android:text="交付实际时间"
+                android:textColor="#768799"
+                android:textSize="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/delivery_quality_title_id"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/delivery_quality_img"
+                android:text="2016/10/30"
+                android:textColor="#000547"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

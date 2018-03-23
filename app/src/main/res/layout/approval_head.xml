@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<com.elead.views.TopBarView
+        android:id="@+id/approval_titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <com.elead.views.SquareLin
+            android:id="@+id/ll_waiting_for_my_approval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/white_bg_selector"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/waiting_for_my_approval"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/waiting_for_my_approval"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/approval_textsize" />
+        </com.elead.views.SquareLin>
+
+        <com.elead.views.SquareLin
+            android:id="@+id/ll_i_started"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/white_bg_selector"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/i_started"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/i_started"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/approval_textsize" />
+        </com.elead.views.SquareLin>
+
+        <com.elead.views.SquareLin
+            android:id="@+id/ll_cc_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/white_bg_selector"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cc_my"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/cc_my"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/approval_textsize" />
+        </com.elead.views.SquareLin>
+    </LinearLayout>
+
+</LinearLayout>

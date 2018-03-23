@@ -1,0 +1,20 @@
+<resources>
+     <!-- popWindow动画style -->
+    <style name="mypopwindow_anim_style">
+
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowEnterAnimation">@anim/anim_popshow</item>
+        <!-- 指定消失的动画xml -->
+        <item name="android:windowExitAnimation">@anim/anim_pophidden</item>
+    </style>
+    
+    <!-- 日历样式 -->
+    <style name="dateStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

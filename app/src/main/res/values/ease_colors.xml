@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_answer_pressed">#008CEE</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+
+
+    <!--红包颜色资源-->
+    <color name="bg_light_grey">#f9f9f9</color>
+    <color name="text_dark_grey">#bcbcbc</color>
+    <color name="text_black">#3e3e3e</color>
+
+    <!--CardView-->
+    <!-- Background color for light CardView. -->
+    <!-- Background color for dark CardView. -->
+    <!-- Shadow color for the first pixels around CardView. -->
+    <!-- Shadow color for the furthest pixels around CardView. -->
+
+
+    <color name="black">#000000</color>
+
+    <color name="alertdialog_line">#c6c6c6</color>
+
+    <color name="actionsheet_blue">#037BFF</color>
+
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+
+    <!-- 首页红色 -->
+    <color name="index_red">#dd434d</color>
+    <!-- 首页红色按下 -->
+    <color name="index_red_press">#ab6569</color>
+
+</resources>

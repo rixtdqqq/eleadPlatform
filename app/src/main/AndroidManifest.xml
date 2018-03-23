@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.elead.eplatform"
+    android:versionCode="4"
+    android:versionName="1.0.3">
+
+    <!-- 环信Required -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!--从SDCard读取数据权限-->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- 推送所需的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="com.elead.eplatform.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.elead.eplatform.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 设置图快捷方式权限 -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/> -->
+    <!-- 高德定位配置 -->
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 用于写入缓存数据到扩展存储卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--<permission
+        android:name="com.im.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />-->
+
+    <uses-permission android:name="com.im.permission.C2D_MESSAGE" />
+
+    <!--<permission
+        android:name="com.im.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signatureOrSystem" />-->
+
+    <uses-permission android:name="com.im..permission.MIPUSH_RECEIVE" />
+
+    <!-- 高德配置权限end -->
+    <application
+        android:name="com.elead.application.MyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/EpTheme"
+        tools:replace="android:theme">
+
+        <!-- 高德地图key -->
+        <!--
+            非签名key: e74dd7b9a9b56e76ba7ad74adbb39adb
+            签名key:5da6aaae377893e12b1235dfbcf36252
+        -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="5da6aaae377893e12b1235dfbcf36252" />
+
+        <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService"></service>
+
+        <!-- 设置环信应用的AppKey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="1157161027178983#e-platform" />
+        <!-- 声明SDK所需的service SDK核心功能-->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true" />
+        <!-- 声明SDK所需的receiver -->
+        <receiver android:name="com.hyphenate.chat.EMMonitorReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.hyphenate.chat.EMGCMBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.elead.eplatform" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.elead.im.receiver.NotificationClickReceiver"
+            android:exported="true" />
+
+        <!-- 声明SDK所需的service SDK核心功能 -->
+
+        <activity android:name="com.elead.activity.AddressActivity" />
+        <activity
+            android:name="com.elead.activity.LoginActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name="com.elead.activity.EfriendActivity" />
+        <activity android:name="com.elead.activity.QrCodeActivity" />
+        <activity android:name="com.elead.operate.activity.OperatTabActivity" />
+        <activity android:name="com.elead.R_D_Center.activity.RDCMainActivity" />
+        <activity android:name="com.elead.R_D_Center.activity.RDCTabActivity" />
+        <activity android:name="com.elead.activity.RssDetailActivity" />
+        <activity android:name="com.elead.activity.BindListActivity" />
+        <activity
+            android:name="com.elead.im.activity.NewFriendsMsgActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.elead.im.activity.ChatRoomDetailsActivity" />
+        <activity
+            android:name="com.elead.activity.MainActivity"
+            android:launchMode="singleTask"
+
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 开屏页 -->
+        <activity
+            android:name="com.elead.activity.GuideActivity"
+
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.elead.activity.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.elead.activity.AddFriendActivity" />
+        <activity android:name="com.elead.im.activity.AddContactActivity" />
+        <activity
+            android:name="com.elead.im.activity.MyFriendActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="com.elead.activity.SettingActivity" />
+        <activity android:name="com.elead.activity.MyInformatActivity" />
+        <activity
+            android:name="com.elead.approval.activity.ApprovalMainActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.elead.upcard.activity.AttendanceActivity" />
+        <activity android:name="com.elead.qs.QSMainActivity" />
+        <activity
+            android:name="com.elead.approval.activity.ApprovalCommonActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.elead.approval.activity.ApWaitingForMyApprovalActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.elead.approval.activity.ApprovalManagerActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.elead.activity.OtherPeopleActivity" />
+        <activity android:name="com.elead.report.activity.ReportMainActivity" />
+        <activity android:name="com.elead.operate.activity.StatisticalMainActivity" />
+        <activity android:name="com.elead.upcard.activity.SignMainActivity" />
+        <activity android:name="com.elead.im.activity.CallActivity" />
+        <activity
+            android:name="com.elead.im.activity.ContextMenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name="com.elead.im.activity.EaseShowBigImageActivity" />
+        <activity android:name="com.elead.im.activity.EaseShowVideoActivity" />
+        <activity android:name="com.elead.im.activity.PickContactNoCheckboxActivity" />
+        <activity android:name="com.elead.im.activity.VideoCallActivity" />
+        <activity android:name="com.elead.im.activity.ForwardMessageActivity" />
+        <activity android:name="com.elead.im.activity.GroupsActivity" />
+        <activity android:name="com.elead.im.activity.GroupBlacklistActivity" />
+        <activity android:name="com.elead.im.activity.GroupDetailsActivity" />
+        <activity android:name="com.elead.im.activity.GroupPickContactsActivity" />
+        <activity
+            android:name="com.elead.im.activity.GroupSearchMessageActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.elead.im.activity.GroupSimpleDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name="com.elead.im.activity.NewGroupActivity" />
+        <activity android:name="com.elead.im.activity.PublicGroupsActivity" />
+        <activity android:name="com.elead.im.activity.PublicGroupsSeachActivity" />
+        <activity android:name="com.elead.im.activity.ChatDetailActivity" />
+        <activity
+            android:name="com.elead.im.activity.ExitGroupDialog"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.elead.im.activity.EditActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="com.elead.activity.ChangePwdActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name="com.elead.activity.UseHelpActivity" />
+        <activity android:name="com.elead.operate.activity.DetaiCardActivity" />
+        <activity
+            android:name="com.elead.activity.ModifyPasswordActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="com.elead.activity.SendMailActivity" />
+        <activity android:name="com.elead.activity.SendPswActivity" />
+        <activity android:name="com.elead.upcard.activity.ErrorActivity" />
+        <activity android:name="com.elead.upcard.activity.RetroactiveCardActivity" />
+        <activity android:name="com.elead.upcard.activity.GoOutBusinessActivity" />
+
+        <activity android:name="com.elead.upcard.activity.LeaveActivity" />
+
+
+        <activity
+            android:name="com.elead.im.activity.ChatActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 发红包 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPRedPacketActivity"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
+        <!-- 红包详情 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPDetailActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 红包记录 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPRecordActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- WebView相关 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPWebViewActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 零钱 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPChangeActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 绑定银行卡 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPBankCardActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 群成员列表页 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPGroupMemberActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 支付宝h5支付页面 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 转账页面 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPTransferActivity"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
+        <!-- 转账详情页面 -->
+        <activity
+            android:name="com.easemob.redpacketui.ui.activity.RPTransferDetailActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.elead.activity.ValidationFriendActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity android:name="com.elead.im.activity.InvitationFriendActivity" />
+
+        <activity android:name="com.elead.activity.AlertGroupNameActivity" />
+
+        <activity android:name="com.elead.im.activity.UserInfoDetailActivity" />
+
+        <activity android:name="com.elead.approval.activity.ApprovalProcessActivity" />
+
+        <!-- 研发移动化 -->
+        <activity
+            android:name="com.elead.md.activity.MDMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.elead.md.activity.MDCommonActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义日期范围"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/clear_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="清空日期"
+            android:textColor="#3BB1EF"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/group_calandar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal" >
+
+        <com.gly.calendar.view.CalendarRadioButton
+            android:id="@+id/rb_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="日历"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <com.gly.calendar.view.CalendarRadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="周历"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <com.gly.calendar.view.CalendarRadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="月历"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <com.gly.calendar.view.CalendarRadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="年历"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/layout_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_year_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="2016年"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/imb_preyear_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_year_center"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/calandar_left_selector" />
+
+            <ImageButton
+                android:id="@+id/imb_nextyear_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_year_center"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/calandar_right_selector" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_month_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="2"
+                android:gravity="center"
+                android:text="11月"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/imb_premonth_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_month_center"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/calandar_left_selector" />
+
+            <ImageButton
+                android:id="@+id/imb_nextmonth_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_month_center"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/calandar_right_selector" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/xingqis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="一"
+                android:textColor="#323232" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="二"
+                android:textColor="#323232" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="三"
+                android:textColor="#323232" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="四"
+                android:textColor="#323232" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="五"
+                android:textColor="#323232" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="六"
+                android:textColor="#F5A964" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="日"
+                android:textColor="#F5A964" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="#cccccc" />
+    </LinearLayout>
+
+    <com.gly.calendar.view.CalendarCard
+        android:id="@+id/mcalendarcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ebebeb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sure_btn_bg_seleor"
+            android:focusable="false"
+            android:text="取消"
+            android:textColor="@drawable/sure_btn_text_seleor"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ebebeb" />
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sure_btn_bg_seleor"
+            android:text="确定"
+            android:textColor="@drawable/sure_btn_text_seleor"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ebebeb" />
+
+</LinearLayout>

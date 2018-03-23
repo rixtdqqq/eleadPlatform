@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/big_line_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.elead.activity.MainActivity">
+
+
+    <com.elead.views.JazzyViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:overScrollFooter="@android:color/transparent"
+        android:overScrollHeader="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/small_line_bg"
+        android:scaleType="fitXY" />
+
+    <com.elead.views.TbSelector
+        android:id="@+id/ntb_main"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white" />
+
+
+</LinearLayout>

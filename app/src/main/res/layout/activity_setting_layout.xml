@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical">
+
+    <com.elead.views.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--账号与安全 -->
+            <RelativeLayout
+                android:id="@+id/accout_safe_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/account_safe"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:drawableLeft="@drawable/lock"
+                    android:drawablePadding="8dp"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="center"
+                    android:text="@string/account_protected"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/news_notify_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/msg_tip"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_arrow"
+
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/person_private_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/personal_private"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_arrow"
+
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/genenal_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/genenal"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_arrow"
+
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/language_setting_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/language_setting"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:id="@+id/language_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+
+                    android:drawablePadding="3dp"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:text="@string/language_set"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/chang_passWork_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/modify_password"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:drawablePadding="3dp"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/aboat_E_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/card_padding_Left"
+                    android:text="@string/set_about"
+                    android:textSize="@dimen/approval_textsize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right_arrow"
+
+                    android:textSize="@dimen/approval_textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/logout_rel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/approval_item_height"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:background="@drawable/white_bg_selector">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/set_logout"
+                    android:textSize="@dimen/approval_textsize" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.05dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#DEDEDE" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.elead.views.MyScrollView>
+</LinearLayout>

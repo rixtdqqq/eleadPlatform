@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E platform</string>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register">New user</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="confirm">Confirm</string>
+    <string name="get_back_password">Forgot password</string>
+    <string name="modify_password">Change password</string>
+    <string name="click_again_exit">Press the return key to exit the application once again</string>
+    <string name="waiting_for_my_approval">My approval</string>
+    <string name="i_started">I initiated </string>
+    <string name="cc_my">Cc my</string>
+    <string name="no_data">Temporarily no data</string>
+    <string name="approval_type">Approval type:</string>
+    <string name="applicant"> Applicant:</string>
+    <string name="already_approve">Has approval</string>
+    <string name="my_approve">My approval</string>
+    <string name="add_approved">Add the approval</string>
+    <string name="approved">Approval</string>
+    <string name="approval_total">Total reimbursement amount (RMB) :</string>
+    <string name="approval_add_reimbursement_detail">Add</string>
+    <string name="approval_reimbursement_detail">Reimbursement detail </string>
+    <string name="approval_deleted">Delete</string>
+
+    <string name="approval_reimbursement_money">Reimbursement amount (RMB) </string>
+    <string name="approval_reimbursement_money_hint">Please enter a number (mandatory) </string>
+    <string name="approval_reimbursement_type">Reimbursement categories</string>
+    <string name="approval_money_detail">Cost detail</string>
+    <string name="approval_reimbursement_type_hint"> Such as: purchasing fund budget (required), </string>
+    <string name="approval_reimbursement_money_detail_hint"> Please enter cost detail description </string>
+    <string name="approval_res_detail"> Item detail</string>
+    <string name="approval_res_purpose">Item USES</string>
+    <string name="approval_res_name">Item name </string>
+    <string name="approval_res_count"> Item number</string>
+    <string name="approval_res_receive_detail"> Recipients details</string>
+    <string name="please_enter_a_groupname">PleaseEnterGroupName</string>
+
+    <string name="approval_res_purpose_hint">Such as daily office (required)</string>
+    <string name="approval_res_name_hint">Please input item name (required)</string>
+    <string name="approval_res_count_hint">Please enter the number of</string>
+    <string name="approval_res_receive_detail_hint">Please enter items recipients specifics</string>
+    <string name="approval_is_not_null">Required fields cannot be empty</string>
+    <string name="approval_application_content">Application content</string>
+    <string name="approval_details">Approval details</string>
+    <string name="approval_application_content_hint">(Required) Please enter the application content</string>
+    <string name="approval_details_hint">Please enter the details (required) for examination and approval of</string>
+    <string name="pubch_the_clock">Cell phone clock</string>
+    <string name="welcome_punch_the_clock">Welcome to intelligent office every day</string>
+    <string name="create_team">Create team</string>
+    <string name="search_employee_no">Enter a employee number search</string>
+    <string name="scan_friend">Scan friends</string>
+    <string name="add_phone_contacts">Add contacts</string>
+    <string name="my_qr_code">My qr code card</string>
+
+    <string name="add_friends"> Add buddy</string>
+    <string name="create_groud">Create groud</string>
+    <string name="attendance_no"> Attendance</string>
+    <string name="person_attendance"> Staff attendance</string>
+    <string name="leave_early">Left early</string>
+    <string name="absenteeism">Absenteeism</string>
+    <string name="field_personnel"> Field</string>
+    <string name="not_scheduling"> Not scheduling</string>
+    <string name="missing_card">Deficiency card</string>
+    <string name="add"> Add </string>
+    <string name="provider"> Providers: </string>
+    <string name="classic_model"> Classic template </string>
+    <string name="custom"> Custom </string>
+    <string name="approval_manager">Examination and approval administration</string>
+    <string name="list_item_po_submit_date"> Submit time: </string>
+    <string name="operate_see_the_more"> Read more </string>
+    <string name="operate_compliance"> Compliance </string>
+    <string name="operate_problem_number"> Problem number</string>
+    <string name="operate_check_item"> Check items </string>
+    <string name="operate_quality_defect"> Quality defects</string>
+
+    <string name="operate_quality_name">Name</string>
+    <string name="operate_quality_prompt">Prompt</string>
+    <string name="operate_quality_commonly">General</string>
+    <string name="operate_quality_serious">Serious</string>
+    <string name="operate_quality_deadly"> Fatal</string>
+    <string name="operate_quality_defect_rate">Defects</string>
+    <string name="employee_number_or_mail">Work number or email</string>
+    <string name="e_lead_mail_address">\@e-lead.cn</string>
+    <string name="e_lead_login_failed">Login failed, please try agin!</string>
+
+    <string-array name="approval">
+        <item>Ask for leave</item>
+        <item>To submit an expense account</item>
+        <item>On a business trip</item>
+        <item>To go out</item>
+        <item>Items of recipients</item>
+        <item>Gm approval</item>
+    </string-array>
+
+    <string-array name="classic_model_name">
+        <item>Department collaboration</item>
+        <item>The project application</item>
+        <item>Deposit application</item>
+        <item>The order approval</item>
+        <item>Items purchase </item>
+        <item>The payment</item>
+        <item>Purchasing</item>
+        <item>News blackout</item>
+        <item>Meeting approval</item>
+        <item>Qualification using</item>
+        <item>The contract approval</item>
+        <item>Work for instructions</item>
+        <item>Reported to the course</item>
+        <item>Express to send</item>
+        <item>The performance self-assessment</item>
+        <item>Car application</item>
+        <item>Refused to apply for the</item>
+        <item>Leave</item>
+        <item>Positive</item>
+        <item>Work overtime</item>
+        <item>Payment</item>
+        <item>Recruitment</item>
+    </string-array>
+
+
+    <string-array name="classic_model_description">
+        <item>Apply to a collaboration between departments</item>
+        <item>when is suitable for the project application</item>
+        <item>For employees on a business trip or errands...</item>
+        <item> Used to order for examination and approval of class</item>
+        <item> applicable to purchase company items</item>
+        <item>Is suitable for the receipt to the customer when the examination and approval of</item>
+        <item>For corporate office or of the materials needed to...</item>
+        <item>Apply news information report</item>
+        <item> Apply to hold important meeting agenda for examination and approval</item>
+        <item>Provide all kinds of certificate (business license, etc.)...</item>
+        <item>Apply to apply to draw up the contract after the examination and approval of</item>
+        <item>To superior for instructions applicable to work</item>
+        <item>For school teachers to between each other classes...</item>
+        <item>Items send use record in the company..</item>
+        <item>Report for monthly performance</item>
+        <item>Apply to the use of the vehicle on business application</item>
+        <item>Apply to the company seal</item>
+        <item>Apply to leave for examination and approval</item>
+        <item>Used for probation period staff employees positive...</item>
+        <item>Apply to work overtime for approval</item>
+        <item>Apply to payment for examination and approval</item>
+        <item>Used in department of choose and employ persons needs to apply for</item>
+    </string-array>
+
+
+    <string name="approval_workover">My overtime</string>
+    <string name="approval_starttime">Start time</string>
+    <string name="approval_endtime"> End time </string>
+    <string name="approval_workover_time"> Overtime hours </string>
+    <string name="approval_write_workover_time">Please fill out the overtime hours (mandatory) </string>
+    <string name="approval_isfadingjiari">Whether legal holiday </string>
+    <string name="approval_choose">Please select </string>
+    <string name="approval_choose_must">Please select (mandatory)</string>
+    <string name="approval_yes">Is</string>
+    <string name="approval_no"> No </string>
+    <string name="approval_he_suan_fang_shi">Overtime accounting </string>
+    <string name="approval_sheqing_tiaoxiu"> To apply for paid leave </string>
+    <string name="approval_shenqing_jiaban_fei"> To apply for overtime </string>
+    <string name="approval_workover_reasonwhy"> Overtime reason </string>
+    <string name="approval_white_reasonwhy"> Please fill out the overtime reason </string>
+
+    <string name="approval_my_contract"> My contract approval </string>
+    <string name="approval_contract_code"> Contract number </string>
+    <string name="approval_please_write_must"> Please enter (mandatory) </string>
+    <string name="approval_our_name"> Our unit name </string>
+    <string name="please_write"> Enter </string>
+    <string name="approval_our_head"> Our head </string>
+    <string name="approval_there_entrty_name"> The other unit name </string>
+    <string name="approval_there_head_name"> Your director name </string>
+    <string name="approval_contract_terms"> Contract terms </string>
+    <string name="approval_content">Conten </string>
+    <string name="approval_my_goaway"> My departure </string>
+    <string name="approval_induction_date"> Entry date </string>
+
+    <string name="approval_my_goaway_date">Departure date</string>
+    <string name="approval_job">Just for </string>
+    <string name="approval_please_write_job_must">Please fill in the subordinate position (mandatory) </string>
+    <string name="approval_tranfser_peo">Transfer personnel </string>
+    <string name="approval_please_write_transfer_must">Please fill out the transfer of personnel (mandatory) </string>
+    <string name="approval_contact_start_time">Labor contract start time </string>
+    <string name="approval_contact_end_time">Labor contract end time </string>
+    <string name="approval_goaway_reason">Quit reason </string>
+    <string name="approval_write_goaway_time">Please fill out the leaving reason (mandatory) </string>
+    <string name="approval_transfer_thing">The handover matters </string>
+    <string name="approval_please_write_transfer_thing">Please fill in the required handover matters (required) </string>
+    <string name="approval_my_pay"> My payment </string>
+    <string name="approval_pay_reason"> Payment for </string>
+    <string name="approval_please_write_pay_reason"> Please fill out the reason of payment (required) </string>
+    <string name="approval_pay_total">The total amount of payment</string>
+    <string name="approval_pleast_write_pay_total"> Please fill in the total payment (mandatory) </string>
+    <string name="approval_pay_way">Payment </string>
+
+    <string name="approval_pay_date">Payment date </string>
+    <string name="approval_pay_object"> Pay object </string>
+    <string name="approval_pleast_write_pay_object"> Please fill in payment object (required) </string>
+    <string name="approval_open_bank"> Account </string>
+    <string name="approval_pleast_write_open_bank">Please fill out the bank (required) </string>
+    <string name="approval_bank_user"> Bank accounts </string>
+    <string name="approval_pleast_write_bank_user"> Please fill out the bank account (required) </string>
+    <string name="approval_my_positive">My positive </string>
+    <string name="approval_loginin_date"> Entry date </string>
+    <string name="approval_tryuse_job"> Probation jobs </string>
+    <string name="approval_pleast_write_tryuse_job"> Please fill out the probation jobs (mandatory) </string>
+    <string name="approval_job_understand"> Understanding of this post </string>
+    <string name="approval_pleast_whrite_job_understand"> Please fill out the understanding of this job (required)</string>
+    <string name="approval_conclusion"> Probation on the job summary </string>
+
+    <string name="approval_please_write_conclusion"> Please fill out the probation on the job summary (mandatory) </string>
+    <string name="approval_advice_to_company">Opinions and Suggestions of the company</string>
+    <string name="approval_pleast_write_advice_to_company">Please fill out the opinions and Suggestions to the company (required)</string>
+    <string name="approval_my_shop"> My shopping</string>
+    <string name="approval_apply_reason"> Application for</string>
+    <string name="approval_pleast_write_apply_reason"> Please enter application reason</string>
+    <string name="approval_shop_type"> Procurement type </string>
+    <string name="approval_hope_delivery_date"> Expected delivery date</string>
+    <string name="approval_shop_detils">Purchasing details</string>
+    <string name="approval_specifications"> Specifications</string>
+    <string name="approval_name">Name</string>
+    <string name="approval_count">The number of</string>
+    <string name="approval_company"> Unit </string>
+    <string name="approval_price"> Price </string>
+    <string name="approval_note">Note</string>
+    <string name="approval_my_use_car"> My car</string>
+
+    <string name="approval_apply_department"> Application department </string>
+    <string name="approval_please_write_department">(Required) Please fill out the application department</string>
+    <string name="approval_pleast_write_user_reason">Please fill out the car for (mandatory)</string>
+    <string name="approval_usecar_reson"> Car reason </string>
+    <string name="approval_start_place"> Origination point </string>
+    <string name="approval_pleast_write_start_place">Please fill out the origination point (required)</string>
+    <string name="approval_back_place"> Return to site </string>
+    <string name="approval_pleast_write_back_place"> Please fill out the return location (required)</string>
+    <string name="approval_use_car_date"> Car date </string>
+    <string name="approval_back_date"> Return date </string>
+    <string name="approval_car_details"> Vehicle details </string>
+    <string name="approval_car_type">Vehicle type </string>
+    <string name="approval_carnum"> Number (a) </string>
+    <string name="approval_other_order"> Other requirements </string>
+    <string name="please_my_yong_yin_apply"> My refused to apply for the </string>
+    <string name="please_yong_yin_department"> Using the department </string>
+    <string name="approval_agent"> Agent </string>
+
+
+    <string name="please_write_agent">Please fill out the agent (mandatory) </string>
+    <string name="approval_date">Date </string>
+    <string name="approval_yong_yin_file_name">Using the file name </string>
+    <string name="approval_please_write_yong_yin_file_name">Please fill in using the file name (required) </string>
+    <string name="approval_file_count">Documents </string>
+    <string name="approval_pleast_files_count">Please fill out the file attachments (required)</string>
+    <string name="approval_file_type">File categories </string>
+    <string name="approval_gai_sha_yin_zhang">what kind of chop </string>
+    <string name="approval_pleast_write_note">Please fill out the note </string>
+    <string name="approval_my_business_trip">Travel </string>
+    <string name="approval_trip_details">Travel detail </string>
+    <string name="approval_trip_place">Travel </string>
+    <string name="approval_trip_place_hint"> Such as Beijing, Shanghai, hangzhou (required)</string>
+    <string name="approval_trip_reason">Travel reason </string>
+    <string name="approval_trip_reason_hint"> Please enter travel reason (mandatory)</string>
+    <string name="approval_trip_days"> Travel days </string>
+    <string name="approval_trip_days_hint"> Please enter the travel days (mandatory)</string>
+
+    <string name="approval_my_go_out">My out </string>
+    <string name="approval_go_out_time">Out time (hours) </string>
+    <string name="approval_go_out_time_hint">Time (required) please enter out </string>
+    <string name="approval_go_out_reason">Out reason </string>
+    <string name="approval_go_out_reason_hint">Reason (required) please enter out </string>
+    <string name="approval_leave">Ask for leave</string>
+    <string name="approval_leave_type"> Leave type </string>
+    <string name="approval_leave_days"> Leave days </string>
+    <string name="approval_leave_reason"> Leave reason </string>
+    <string name="approval_leave_days_hint"> Please enter leave days </string>
+    <string name="approval_leave_reason_hint">Please enter the leave reason </string>
+    <string name="approval_must_write_not_null">Required fields cannot be empty </string>
+    <string name="elead_login_bottom_text"> 2016 E - lead. All Rights Reserves. </string>
+    <string name="user_password_isnull">User name or password is empty! </string>
+    <string name="submit">Submit</string>
+    <string name="photo">Picture</string>
+    <string name="approver">Approver</string>
+
+    <string name="approval_my_classes">I reported to the course of </string>
+    <string name="approval_the_classes_please_recommit_approval">Callback class is reported to the examination and approval to be submitted </string>
+    <string name="approval_the_classes_date">Course date </string>
+    <string name="approval_section"> what </string>
+    <string name="approval_subjects">Account </string>
+    <string name="approval_other_name">Name </string>
+    <string name="approval_other_date">The other date </string>
+    <string name="approval_other_subjects">The other covers them </string>
+    <string name="approval_morning_class">Morning course </string>
+    <string name="approval_one_am">On the morning of the first quarter </string>
+    <string name="approval_two_am">On the morning of the second quarter </string>
+    <string name="approval_three_am">On the morning of the third quarter </string>
+    <string name="approval_four_am">On the morning of the fourth quarter </string>
+    <string name="approval_one_pm"> Section 1 in the afternoon </string>
+    <string name="approval_two_pm">On the afternoon of the second quarter </string>
+    <string name="approval_three_pm">Section 3 in the afternoon </string>
+    <string name="approval_four_pm">Section 4 in the afternoon </string>
+    <string name="approval_Chinese_language_and_literature">Language </string>
+    <string name="approval_English">English </string>
+    <string name="approval_mathematics">Mathematical </string>
+    <string name="approval_physical_education">Sports </string>
+    <string name="approval_musice">Music </string>
+    <string name="approval_computer">Computer </string>
+    <string name="approval_natural_sciences">Science </string>
+
+    <string name="approval_my_collect_money">My collection</string>
+    <string name="approval_customer_name">Customer name</string>
+    <string name="approval_customer_company">Client company</string>
+    <string name="approval_collect_money_reason">Collection reason</string>
+    <string name="approval_collect_money_way">Payment methods</string>
+    <string name="approval_transfer">Transfer </string>
+    <string name="approval_link_phone">Contact</string>
+    <string name="approval_collect_money">Payment amount (RMB)</string>
+    <string name="approval_money">Cash </string>
+    <string name="approval_pay_treasure">Alipay </string>
+
+
+    <string name="approval_my_cooperation">My collaboration department </string>
+    <string name="approval_cooperation_reason">Collaboration for </string>
+    <string name="approval_expect_target">Target </string>
+    <string name="approval_sponsor">Sponsors </string>
+    <string name="approval_cooperation">Collaboration </string>
+    <string name="approval_cooperation_other">Collaboration </string>
+    <string name="approval_cooperation_item"> collaboration matters </string>
+    <string name="approval_complete_date">Completion date </string>
+    <string name="approval_Self_evaluation">My self-evaluation of performance </string>
+    <string name="approval_last_month_task">Last month salary task </string>
+    <string name="approval_please_input">Please enter (mandatory) </string>
+    <string name="approval_actually_complete_task">Actual task </string>
+    <string name="approval_task_complete_rate">Task completion </string>
+    <string name="approval_digital_complete_rate">Digital performance class fill in a rate </string>
+    <string name="approval_lastmonth_self">Last month work self-reported </string>
+    <string name="approval_this_moth_task">Task this month </string>
+    <string name="approval_this_month_plan">Work plan for this month </string>
+
+
+    <string name="approval_my_express_send">My Courier send </string>
+    <string name="approval_send_content">Mail content </string>
+    <string name="approval_express_company_name"> Courier company name </string>
+    <string name="approval_send_date">Mailing date </string>
+    <string name="approval_express_number"> Courier number </string>
+    <string name="approval_express_deal_requier">Express processing requirements </string>
+    <string name="approval_sign_requrie">Receipt request </string>
+    <string name="approval_please_sign_up">Please sign for it </string>
+    <string name="approval_single_sign_up">Single can sign for </string>
+    <string name="approval_require_more_people_sign_up">Need people to sign for</string>
+    <string name="approval_my_meeting_approval">My meeting review</string>
+    <string name="approval_meeting_name">Meeting name </string>
+    <string name="approval_meeting_place">Meeting place</string>
+    <string name="approval_hoster">Organizers </string>
+    <string name="approval_meeting_trip">Agenda </string>
+    <string name="approval_meeting_theme">Theme </string>
+    <string name="approval_spokesman">Spokesman </string>
+    <string name="approval_my_news_fact">My news blackout </string>
+    <string name="approval_news_type">News type </string>
+    <string name="approval_news_source">News source </string>
+    <string name="approval_urgency_level">Emergency degree </string>
+    <string name="approval_event_description">Event description </string>
+    <string name="approval_urgenc">Emergency </string>
+    <string name="approval_ordinary">General </string>
+    <string name="approval_emergent_events">Events </string>
+    <string name="approval_be_heroic">Good </string>
+    <string name="approval_continuous_reporting">Continuous reports</string>
+
+
+    <string name="approval_my_order_approval">My orders approval </string>
+    <string name="approval_order_unit">Order unit </string>
+    <string name="approval_other_charger">The other head </string>
+    <string name="approval_order_date">Order date </string>
+    <string name="approval_order">Order </string>
+    <string name="approval_product_name">Product name </string>
+    <string name="approval_order_amout">Order number </string>
+    <string name="approval_order_money">Amount (RMB) </string>
+    <string name="approval_all_order_money">Total amount (RMB) : </string>
+    <string name="approval_order_explain">Order description </string>
+    <string name="approval_my_project_approval">My project application </string>
+    <string name="approval_project_name">Project name </string>
+    <string name="approval_project_summary">Project overview </string>
+    <string name="approval_expect_startTime">Expected start time </string>
+    <string name="approval_people_require">Personnel demand </string>
+    <string name="approval_money_require">Money demand </string>
+    <string name="approval_budget">Budget </string>
+    <string name="approval_butget_content">Budget content </string>
+    <string name="approval_budget_money">Budget amount </string>
+    <string name="approval_plan_progress">Schedule </string>
+    <string name="approval_my_things_purchase">My item purchase </string>
+    <string name="approval_detail">Detail</string>
+    <string name="approval_things_name">Item name </string>
+    <string name="approval_specifications_type">Specifications </string>
+    <string name="approval_please_input_specifications_type">Please specify specifications (optional) </string>
+    <string name="approval_single_money">Unit price (RMB) </string>
+    <string name="approval_things_all_money">The total price (RMB) </string>
+    <string name="approval_usefully"> USES </string>
+    <string name="approval_please_input_usefully_pass">Please write clear purpose in order to faster through </string>
+    <string name="approval_all_all_money">Total price (RMB) : </string>
+
+    <string name="approval_my_wrok_ask">I work for instructions </string>
+    <string name="approval_please_input_reason">Please fill out the reason (mandatory) </string>
+    <string name="approval_suspension">Suspend </string>
+    <string name="approval_specific_content">Specific content </string>
+    <string name="approval_please_input_specific_content">Please fill in the details for instructions </string>
+    <string name="approval_reason">For</string>
+    <string name="approval_my_qualifications_use">My qualifications to use </string>
+    <string name="approval_qulifications_type">Qualification category </string>
+    <string name="approval_qulifications_tpye_example">\"business, organization code certificate, tax registration...\"</string>
+    <string name="approval_agent_department">Agent department</string>
+    <string name="approval_whether_to_go">Whether to go </string>
+    <string name="approval_need_to_go">Need to go </string>
+    <string name="approval_no_need_to_go">Don not need to go </string>
+    <string name="approval_borrowing_time">Borrow time </string>
+    <string name="approval_return_time">Return time </string>
+    <string name="approval_usefully_reason">Using reason </string>
+
+
+    <array name="approval_pay_ways">
+        <item>Please select</item>
+        <item>Check</item>
+        <item>Credit</item>
+        <item>T/t</item>
+        <item>Draft (s)</item>
+        <item>Cash</item>
+        <item>Bank card</item>
+        <item>Other</item>
+    </array>
+    <array name="approval_pay_ways2">
+        <item>Please select</item>
+        <item>Cash</item>
+        <item>Draft(s)</item>
+        <item>Pay treasure</item>
+    </array>
+    <string-array name="approval_shop_types">
+        <item>Please select </item>
+        <item>Office supplies</item>
+        <item>Production of raw materials</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="rdc_centor">Research and development center</string>
+    <string name="account_safe"> Accounts and security </string>
+    <string name="account_protected"> has protection </string>
+    <string name="msg_tip">New message notice</string>
+    <string name="personal_private">Privacy </string>
+    <string name="genenal"> General</string>
+    <string name="language_setting">Language</string>
+    <string name="set_about"> About E-platform</string>
+    <string name="set_logout">Log out</string>
+    <string name="set_activity_set">Settings</string>
+
+    <string name="home_page"> Dynamic </string>
+    <string name="message_page"> News </string>
+    <string name="work_page"> Work </string>
+    <string name="contact_page">Contact</string>
+    <string name="me_page">Me</string>
+    <string name="send_info"> send verification code </string>
+    <string name="set_psw"> password </string>
+
+    <!--TODO: Remove or change this placeholder text -->
+    <string name="user_not_exist">The user does not exist!</string>
+    <string name="error_user_password">User name or password error </string>
+
+    <string name="language_set">ENGLISH</string>
+
+    <string name="business_calls_set_page">Business calls</string>
+    <string name="collect_set_page">Collecting</string>
+    <string name="aboat_set_page">Aboat</string>
+    <string name="invitation_set_page">Invitation</string>
+    <string name="rookie_help_set_page">Rookie help</string>
+    <string name="set_page">Setting</string>
+    <string name="my_photo">Head portrait</string>
+    <string name="my_nick">Name</string>
+    <string name="enterprise_information">Enterprise informatio</string>
+    <string name="my_name">Name</string>
+    <string name="my_phone">Mobile phone</string>
+    <string name="department">Department</string>
+
+    <string name="mobile_address_book">Mobile book</string>
+    <string name="good_friends">My friends</string>
+    <string name="my_group">My group</string>
+    <string name="common_connect">CommonConnect</string>
+    <string name="im_group_elead_name">上海易立德企业咨询有限公司</string>
+
+    <string name="approval_night_class">The night courses</string>
+    <string name="late">Late</string>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string name="dl_title_upload_photo">Upload Photo</string>
+    <string name="dl_msg_local_upload">Photo Album</string>
+    <string name="dl_msg_take_photo">Take Photo</string>
+    <string name="User_name_cannot_be_empty">MyUser name cannot be empty!</string>
+    <string name="Password_cannot_be_empty">Password cannot be empty!</string>
+    <string name="unable_to_connect">Unable to connect to the server</string>
+    <string name="search_header">Search</string>
+
+    <string name="intelligence_reports">Intelligence</string>
+    <string name="mobile_development">Mobile development</string>
+    <string name="terminal_development">Terminal</string>
+    <string name="construction_function">In the construction of function</string>
+    <string name="sure_of">Ok</string>
+    <string name="more_applications">More applications</string>
+    <string name="my_informations">My profile</string>
+    <string name="attendance_statistical">Statistical</string>
+
+
+    <string name="cancle"> cancle </string>
+    <string name="bind_device"> binding the equipment?</string>
+    <string name="device_binded_other"> this equipment has been other users binding!</string>
+
+
+    <string name="bind"> binding </string>
+    <string name="error"> error </string>
+
+    <string name="pull_to_refresh_pull_down_label"> dropdown refresh </string>
+    <string name="pull_to_refresh_release_down_label"> release update </string>
+    <string name="pull_to_refresh_refreshing_down_label"> is refreshing...</string>
+    <string name="pull_to_refresh_pull_up_label"> pull-up see more </string>
+    <string name="pull_to_refresh_release_up_label"> release load more </string>
+    <string name="pull_to_refresh_refreshing_up_label"> loading...</string>
+
+
+    <string name="buqian">Retroactive card</string>
+    <string name="retroactive_reason">Retroactive Reason</string>
+    <string name="mandatory_input">Mandatory</string>
+    <string name="total_accout">A total of</string>
+    <string name="go_out_business">Go out on business</string>
+    <string name="elead_connect_failed">Network connection failed, please check whether the network is available!</string>
+
+    <string name="cc_people">Cc people</string>
+    <string name="paid_leave">Paid leave</string>
+    <string name="paid_sick_leave">Paid sick leave</string>
+    <string name="annual_leave">Annual leave</string>
+
+    <string name="holiday_line">Holiday line</string>
+    <string name="the_use">The use</string>
+
+
+    <string name="button_pushtotalk">Hold to talk</string>
+    <string name="button_send">Send</string>
+    <string name="attach_smile">Emoticon</string>
+    <string name="attach_picture">Image</string>
+    <string name="attach_take_pic">Capture</string>
+    <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="release_to_cancel">Finger release to cancel sending</string>
+    <string name="send_fail">Send failed</string>
+    <string name="delete_message">Delete message</string>
+    <string name="sure_delete_friend">Delete the contact%s, will be deleted at the same time with the contact chat records</string>
+    <string name="delete_conversation_messages">Delete conversation and messages</string>
+    <string name="delete_conversation">Delete conversation</string>
+    <string name="copy_message">Copy message</string>
+    <string name="delete_voice">Delete voice</string>
+    <string name="delete_video">Delete video</string>
+    <string name="delete">Delete</string>
+    <string name="resend">Resend</string>
+    <string name="confirm_resend">Confirm to resend？</string>
+    <string name="connect_failuer_toast">Please check the network or try again later</string>
+    <string name="network_unavailable">The network connection is not available, please check the network</string>
+    <string name="forward">Forward</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_contact">ChooseContacts</string>
+    <string name="prompt">Prompt</string>
+    <string name="location_recv">[%1$s location]</string>
+    <string name="recording_video">Record video</string>
+    <string name="location_prefix">[my location]</string>
+    <string name="picture">[Picture]</string>
+    <string name="video">[Video]</string>
+    <string name="file">[file]</string>
+    <string name="dynamic_expression">[Dynamic expression]</string>
+    <string name="voice_prefix">[Voice]</string>
+    <string name="voice_call">[Voice call]</string>
+    <string name="video_call">[Video call]</string>
+    <string name="button_search">Find</string>
+    <string name="button_add">Add</string>
+    <string name="recoding_fail">The recording failure, please try again！</string>
+    <string name="select_contacts">Select the contact</string>
+    <string name="confirm_forward_to">Confirm to forward to：%1$s ?</string>
+    <string name="logout">Logout</string>
+    <string name="logout_hint">Logout will never clear the chat history, this account can be used on next login</string>
+    <string name="exit_group_hint">The group messages will not be received after exiting the group</string>
+    <string name="dissolution_group_hint">The group will be dismissed after exiting</string>
+    <string name="exit_group">Exit</string>
+    <string name="now_refresh_list">Refreshing contact list</string>
+    <string name="group_chat">Group chat</string>
+    <string name="add_friend">Add Friends</string>
+    <string name="search">Search</string>
+    <string name="The_new_group_chat">Create new group</string>
+    <string name="group_name">Group name</string>
+    <string name="Group_chat_profile">Group profile</string>
+    <string name="Whether_the_public">Is public</string>
+    <string name="Open_group_members_invited">Allow members to invite</string>
+    <string name="blacklist">Black list</string>
+    <string name="Empty_the_chat_record">Clear conversation</string>
+    <string name="Shielding_of_the_message">Block message</string>
+    <string name="chat_top">Top chat</string>
+    <string name="message_disturb">The message don not disturb</string>
+    <string name="chat_pictrue">Chat picture</string>
+    <string name="chat_file">Chat file</string>
+    <string name="chat_details">ChatDetails</string>
+
+    <string name="Group_of_Lord">The group owner:</string>
+    <string name="Introduction">Brief:</string>
+    <string name="To_join_the_chat">Join the group</string>
+    <string name="mute">Mute</string>
+    <string name="Hands_free">Hands free</string>
+    <string name="hang_up">Hang up</string>
+    <string name="answer">Answer</string>
+    <string name="newchat">Create new group</string>
+    <string name="agree">Agree</string>
+    <string name="is_down_please_wait">Downloading video, please wait a moment</string>
+    <string name="Exit_the_group_chat">Exit the group</string>
+    <string name="Please_enter_a_username">Please enter a username</string>
+
+    <string name="not_add_myself">"Can not add myself"</string>
+    <string name="This_user_is_already_your_friend">This user is already your friend</string>
+    <string name="Add_a_friend">Let me to be your friend!</string>
+    <string name="send_successful">Request was sent, waiting for the peer to accept</string>
+    <string name="Request_add_buddy_failure">Request add buddy failure:</string>
+    <string name="Removed_from_the_failure">Removed fail</string>
+    <string name="call_duration">call duration</string>
+    <string name="Refused">Refused</string>
+    <string name="The_other_party_has_refused_to">Call was refused</string>
+    <string name="The_other_is_not_online">The peer is not online</string>
+    <string name="The_other_is_on_the_phone">The peer is on the phone</string>
+    <string name="The_other_party_did_not_answer">The peer did not answer</string>
+    <string name="did_not_answer">did not answer</string>
+    <string name="Has_been_cancelled">Cancelled</string>
+    <string name="unable_to_get_loaction">Unable to get to your location information!</string>
+    <string name="not_connect_to_server">Not connect to server, please try again later</string>
+    <string name="sd_card_does_not_exist">"SD card does not exist, can't take pictures"</string>
+    <string name="cant_find_pictures">"Can't find pictures"</string>
+    <string name="File_does_not_exist">File does not exist</string>
+    <string name="The_file_is_not_greater_than_10_m">The file is not greater than 10 m</string>
+    <string name="Whether_to_empty_all_chats">Clear all messages?</string>
+    <string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>
+    <string name="Recording_without_permission">Recording without permission</string>
+    <string name="The_recording_time_is_too_short">The recording time is too short</string>
+    <string name="send_failure_please">Send failure, please test whether the server connection</string>
+    <string name="Move_into_blacklist_success">Move into blacklist success</string>
+    <string name="Move_into_blacklist_failure">Move into blacklist failure</string>
+    <string name="you_are_group">You have been kicked off from the group</string>
+    <string name="the_current_group">The current group has been dismissed</string>
+    <string name="Cant_chat_with_yourself">cannot chat with yourself</string>
+    <string name="deleting">Deleting..</string>
+    <string name="Delete_failed">Failed to delete</string>
+    <string name="Is_moved_into_blacklist">Moving to blacklist..</string>
+    <string name="get_failed_please_check">Failed to retrieve, please check the network or try again later</string>
+    <string name="people">people</string>
+    <string name="being_added">added</string>
+    <string name="is_quit_the_group_chat">Exiting group</string>
+    <string name="chatting_is_dissolution">Dismissing group</string>
+    <string name="are_empty_group_of_news">Clearing messages</string>
+    <string name="is_modify_the_group_name">Modifying the group name..</string>
+    <string name="Modify_the_group_name_successful">Modify the group name successful</string>
+    <string name="change_the_group_name_failed_please">Failed to change the group name, please check the network or try again later</string>
+    <string name="Are_moving_to_blacklist">Moving to blacklist</string>
+    <string name="failed_to_move_into">Failed to move to the blacklist, please check the network or try again later</string>
+    <string name="Exit_the_group_chat_failure">Failed to exit the group:</string>
+    <string name="Dissolve_group_chat_tofail">Failed to dismiss the group:</string>
+    <string name="Add_group_members_fail">Add group members fail:</string>
+    <string name="Is_unblock">Unblocking group</string>
+    <string name="remove_group_of">Remove group of shielding failure, please check the network or try again later</string>
+    <string name="group_is_blocked">Blocking the group..</string>
+    <string name="group_of_shielding">Group of shielding failure, please check the network or try again later</string>
+    <string name="sure_to_empty_this">Clear all messages?</string>
+    <string name="The_delete_button_is_clicked">The delete button is clicked</string>
+    <string name="Add_a_button_was_clicked">Add a button was clicked</string>
+    <string name="not_delete_myself">Cannot delete myself</string>
+    <string name="Are_removed">Removing</string>
+    <string name="confirm_the_members">Move this member to group blacklist?</string>
+    <string name="Failed_to_get_group_chat_information">Failed to get group information:</string>
+    <string name="Is_sending_a_request">Sending the request..</string>
+    <string name="Request_to_join">Apply to join</string>
+    <string name="send_the_request_is">The request was sent and waiting for owner approval</string>
+    <string name="Join_the_group_chat">Join the group</string>
+    <string name="Failed_to_join_the_group_chat">Failed to join the group</string>
+    <string name="have_you_removed">Have you removed from his buddy list</string>
+    <string name="can_not_connect_chat_server_connection">Cannot connect to server</string>
+    <string name="the_current_network">The current network is not available, please check the network Settings</string>
+    <string name="Invite_you_to_join_a_group_chat"> Invite you to join this group</string>
+    <string name="Agreed_to_your_group_chat_application">Accepted your group application</string>
+    <string name="Group_name_cannot_be_empty">Group name cannot be empty</string>
+    <string name="Is_to_create_a_group_chat">Creating the group</string>
+    <string name="Failed_to_create_groups">Failed to create groups</string>
+    <string name="Download_the_pictures">Download the pictures: 0%</string>
+    <string name="Download_the_pictures_new">Download the pictures:</string>
+    <string name="Are_connected_to_each_other">Connecting to peer..</string>
+    <string name="Is_not_yet_connected_to_the_server">Not connect to server</string>
+    <string name="have_connected_with">Connected to the peer and waiting for the peer to accept</string>
+    <string name="In_the_call">In the call..</string>
+    <string name="The_other_party_refused_to_accept">The call was refused</string>
+    <string name="Connection_failure">Connection failed!</string>
+    <string name="The_other_party_is_not_online">The peer is not online now, please try later</string>
+    <string name="The_other_is_on_the_phone_please">The peer is busy now, please try later</string>
+    <string name="The_other_is_hang_up">The peer has ended the call</string>
+    <string name="The_other_party_did_not_answer_new">The peer did not answer</string>
+    <string name="Have_downloaded">Already downloaded</string>
+    <string name="Did_not_download">Not yet downloaded</string>
+    <string name="Has_agreed_to_your_friend_request">Accepted your request</string>
+    <string name="Request_to_add_you_as_a_friend">You got a friend request</string>
+    <string name="Apply_to_the_group_of">Apply to join the group</string>
+    <string name="Has_agreed_to">Accepted</string>
+    <string name="Has_refused_to">Refused</string>
+    <string name="Are_agree_with">Accepting</string>
+    <string name="direct_call">Direct</string>
+    <string name="relay_call">Relay</string>
+    <string name="Agree_with_failure">Failed to accept</string>
+    <string name="Is_download_voice_click_later">Downloading the voice message, click later</string>
+    <string name="all_members">All members</string>
+
+    <string name="Change_the_group_name">Change group name</string>
+    <string name="group_qr_code">Group of qr code</string>
+    <string name="group_announcement">Group of announcement</string>
+
+    <string name="dismiss_group">Dismiss group</string>
+    <string name="add_public_group_chat">Add public group</string>
+    <string name="gorup_not_found">Can not find this group</string>
+    <string name="no_more_messages">no more messages</string>
+    <string name="group_id">Group ID</string>
+    <string name="move_out_backlist">Remove from blacklist</string>
+    <string name="group_not_existed">The group does not exist</string>
+    <string name="group_search_failed">Search failed</string>
+    <string name="error_send_invalid_content">The message content is not allowed to be sent!</string>
+    <string name="error_send_not_in_the_group">You already were not in the group</string>
+    <string name="searching">searching</string>
+    <string name="hanging_up">Hanging up..</string>
+    <string name="illegal_user_name">Illegal user name</string>
+    <string name="dl_update_nick">update nickname</string>
+    <string name="dl_waiting">waiting…</string>
+    <string name="toast_updatenick_success">update nickname success!</string>
+    <string name="toast_updatenick_fail">update nickname fail!</string>
+
+    <string name="search_contanier">Search："%s"</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="capture_image">Capture image</string>
+    <string name="msg_take_red_packet">You got your own Red Packet</string>
+    <string name="msg_take_someone_red_packet">You got Red Packet from %1$s</string>
+    <string name="msg_someone_take_red_packet">%1$s got your Red Packet</string>
+    <string name="easemob_red_packet">Easemob Red Packet</string>
+    <string name="easemob_transfer_packet">[Transfer]Transfer%1$syuan</string>
+    <string name="msg_transfer_to_you">[Transfer]Transfer to you %1$s yuan</string>
+    <string name="msg_transfer_from_you">[Transfer]Transfer%1$syuan</string>
+    <string name="call_version_inconsistent">Both call version are inconsistent</string>
+    <string name="join_need_owner_approval">Join need group owner approval</string>
+    <string name="serach_group_message">Search messages</string>
+    <string name="refuse">Refuse</string>
+    <string name="accept_join_group">accept join group:</string>
+    <string name="refuse_join_group">refuse join group:</string>
+    <string name="at_your_in_group">%s @ you in group chat</string>
+
+    <string name="messages_are_empty">Messages has been cleared</string>
+
+    <string name="user_already_in_contactlist">This user already is your friend, only need remove out from the black list</string>
+    <string name="group_nick">Group Nickname:</string>
+    <string name="group_owner">Group Owner:</string>
+
+    <string name="network_unstable">Network unstable</string>
+    <string name="no_call_data">No call data</string>
+
+    <!-- lint -->
+
+
+    <string name="pickerview_cancel">Cancle</string>
+    <string name="pickerview_submit">Ok</string>
+    <string name="pickerview_year">Years</string>
+    <string name="pickerview_month">Months</string>
+    <string name="pickerview_day">Day</string>
+    <string name="pickerview_hours">Hours</string>
+    <string name="pickerview_minutes">Minute</string>
+
+    <string name="my_friends">MyFriends</string>
+    <string name="new_friend">NewFriend</string>
+
+
+    <string name="network_not_connected">Network not connected!</string>
+    <string name="admin">Admin</string>
+
+    <!--红包相关-->
+    <!--绑定银行卡-->
+
+    <!--提现-->
+
+    <string name="invite_join_group">邀请加入群：</string>
+    <string name="Are_refuse_with">正在拒绝……</string>
+    <string name="Refuse_with_failure">拒绝失败:</string>
+
+    <string name="chat_room">Chat room</string>
+    <string name="Open_group_chat">PublicGroupChat</string>
+
+
+    <string name="good_friend_validation">Friends validation</string>
+
+    <string name="search_public_group_chat">SearchPublicGroupChat</string>
+
+    <string name="ease_new_friend">New Friend</string>
+    <string name="ease_new_friend_invite">New Friend Invite</string>
+    <string name="ease_invite">Invite</string>
+
+    <string name="info_detail">Info Detail</string>
+    <string name="send_msg">send msg</string>
+    <string name="add_contact">add contact</string>
+    <string name="number">Job Number</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+
+    <string name="qr_code_title">E platform-qr code card</string>
+    <string name="request_fail">Request failure, please try agin!</string>
+    <string name="resolve_fail">Json parse failed!</string>
+    <string name="user_search">The user name search</string>
+    <string name="my_qrcode">My qr code</string>
+
+
+    <string name="scan_qrcode">Scan the qr code card</string>
+    <string name="phone_contact">Mobile phone contact</string>
+    <string name="invit_contact">To add or invite friends of mobile phone address book</string>
+    <string name="failed_to_load_data">Failed to load data, please check network or try again later</string>
+    <string name="warm_reminder">Warm reminder</string>
+    <string name="no_registered">The person is not registered</string>
+    <string name="if_add_friend">Whether to add it as a good friend</string>
+    <string name="not_identify_qrcode">Did not identify the qr code</string>
+    <string name="must_input_yanzhen">validate input can not be empty,please enter</string>
+    <string name="quality_summary">The quality of the summary</string>
+
+    <!-- 研发移动化 -->
+    <array name="md_main_foot">
+        <item>Project</item>
+        <item>Resources</item>
+        <item>Dynamic</item>
+    </array>
+
+    <string name="md_weekly">Weekly</string>
+    <string name="md_problem">Problem</string>
+    <string name="md_risk">Risk</string>
+    <string name="next_day">Next day</string>
+    <string name="pre_day">Pre day</string>
+</resources>

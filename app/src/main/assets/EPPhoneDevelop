@@ -1,0 +1,221 @@
+{
+    "data": [
+             {
+             "cards": [
+                       {
+                       "cardType": "AdvertCard",
+                       "cardTitle": "",
+                       "cardDetail": {
+                       "cardIndex": "2"
+                       }
+                       },
+                       {
+                       "cardType": "ParameterMixCard",
+                       "cardTitle": "技术参数"
+                       },
+                       {
+                       "cardType": "ParameterCategoryCard",
+                       "cardTitle": "设计亮点"
+                       }
+                       ],
+             "tabTitle": "ID",
+             "navTitle": "工业设计",
+             "imgUrl": "EPCardXuqiu",
+             "selectImgUrl": "EPCardXuqiuLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "MediaCard",
+                       "cardTitle": ""
+                       },
+                       {
+                       "cardType": "ParameterListCard",
+                       "cardTitle": "",
+                       "cardDetail": {
+                       "cardIndex": "2"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "10",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoDesRightPicCard",
+                       "cardTitle": "全金属机身架构",
+                       "cardDetail": {
+                       "cardIndex": "1"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "2",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoDesRightPicCard",
+                       "cardTitle": "双摄像头",
+                       "cardDetail": {
+                       "cardIndex": "2"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "2",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoDesThreePicsCard",
+                       "cardTitle": "双摄像头"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "2",
+                       "color": "161616"
+                       }
+                       ],
+             "tabTitle": "MD",
+             "navTitle": "结构设计",
+             "imgUrl": "EPCardZhiliang",
+             "selectImgUrl": "EPCardZhiliangLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "InfoCard",
+                       "cardTitle": "天线",
+                       "cardDetail": {
+                       "cardIndex": "1"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "6",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoChartCard",
+                       "cardTitle": "电路设计"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "6",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoCard",
+                       "cardTitle": "新技术指标",
+                       "cardDetail": {
+                       "cardIndex": "2"
+                       }
+                       }
+                       ],
+             "tabTitle": "HW",
+             "navTitle": "硬件设计",
+             "imgUrl": "EPCardGuanli",
+             "selectImgUrl": "EPCardGuanliLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "AdvertCard",
+                       "cardTitle": "",
+                       "cardDetail": {
+                       "cardIndex": "3"
+                       }
+                       },
+                       {
+                       "cardType": "ParameterListCard",
+                       "cardTitle": "",
+                       "cardDetail": {
+                       "cardIndex": "1"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "10",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoDesRightPicCard",
+                       "cardTitle": "重新定义移动互联网",
+                       "cardDetail": {
+                       "cardIndex": "3"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "2",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoDesRightPicCard",
+                       "cardTitle": "更好的内容才是更好的设计",
+                       "cardDetail": {
+                       "cardIndex": "4"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "2",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "InfoDesRightPicCard",
+                       "cardTitle": "多类桌面",
+                       "cardDetail": {
+                       "cardIndex": "5"
+                       }
+                       }
+                       ],
+             "tabTitle": "SW",
+             "navTitle": "用户界面",
+             "imgUrl": "EPCardCharts",
+             "selectImgUrl": "EPCardChartsLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "LineChartCard",
+                       "cardTitle": "",
+                       "isPass": "0"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "8",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "LineChartCard",
+                       "cardTitle": "",
+                       "isPass": "1"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "8",
+                       "color": "161616"
+                       },
+                       {
+                       "cardType": "BarChartCard",
+                       "cardTitle": ""
+                       }
+                       ],
+             "tabTitle": "QA",
+             "navTitle": "质量监督",
+             "imgUrl": "EPCardQA",
+             "selectImgUrl": "EPCardQALan"
+             }
+             ]
+}

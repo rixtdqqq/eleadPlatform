@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+   <!-- <LinearLayout
+        android:id="@+id/uc_ll_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">-->
+        <TableLayout
+            android:id="@+id/uc_ll_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:shrinkColumns="0"
+            android:stretchColumns="0"
+            android:paddingBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="15dp">
+            >
+
+            <TableRow>
+
+        <LinearLayout
+            android:id="@+id/ll_uc_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一台主机同时控制多个显示器同步或不同画面设置技巧"
+                android:textSize="15dp"
+                android:textColor="@color/fontcolors3"
+                android:layout_weight="1"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/zhui_zong_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="热点追踪"
+                    android:gravity="center_vertical"
+                    android:textSize="9dp"
+                    android:drawableLeft="@drawable/hot_spot"
+                    android:textColor="@color/hongse"
+                    android:drawablePadding="3dp"
+                   android:layout_marginRight="7dp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/time_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="26分钟前"
+                    android:textColor="@color/fontcolors4"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@id/zhui_zong_id"
+
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:id="@+id/adress_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="跟我一起学IT"
+                    android:textColor="@color/fontcolors4"
+                    android:layout_toRightOf="@id/time_id"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:textSize="9dp" />
+
+
+                <TextView
+                    android:id="@+id/praise_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="58"
+                    android:drawableLeft="@drawable/commentcount_p"
+                    android:textColor="@color/fontcolors4"
+                    android:drawablePadding="3dp"
+                    android:layout_toRightOf="@id/adress_id"
+                    android:layout_marginLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:textSize="9dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/uc_res_im"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ll_uc_text"
+            android:layout_toRightOf="@+id/ll_uc_text"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/uc_img_one" />
+
+            </TableRow>
+        </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/detail_title_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:text="项目名称"
+             android:textColor="#8493A2"
+            android:textSize="@dimen/px42" />
+
+        <TextView
+            android:id="@+id/detail_content_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:text="上海易立德企业管理有限公司"
+            android:layout_alignParentRight="true"
+            android:textColor="#525973"
+            android:textSize="@dimen/px42" />
+    </RelativeLayout>
+<View 
+     android:layout_width="match_parent"
+            android:layout_height="0.05dp" 
+    android:background="#DEDEDE"
+    />
+</LinearLayout>

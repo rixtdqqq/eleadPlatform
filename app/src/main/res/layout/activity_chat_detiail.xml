@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.elead.views.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/big_line_bg"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_bg_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/card_padding_Top">
+
+            <com.elead.views.CircularImageView
+                android:id="@+id/chat_detiail_user"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="onClick"
+                android:src="@drawable/ic_launcher" />
+
+
+            <com.elead.views.CircularImageView
+                android:id="@+id/chat_detiail_add"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="17.7dp"
+                android:onClick="onClick"
+                android:src="@drawable/add_icon" />
+
+
+        </LinearLayout>
+
+        <!--置顶聊天-->
+        <RelativeLayout
+            android:id="@+id/top_chat_rel"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_bg_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/chat_top"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <com.elead.im.widget.EaseSwitchButton
+                android:id="@+id/top_chat_switch_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:switchStatus="close" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/tranpant_bg_selector" />
+
+        <!--  消息免打扰-->
+        <RelativeLayout
+            android:id="@+id/message_disturb_rel"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/white_bg_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/message_disturb"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <com.elead.im.widget.EaseSwitchButton
+                android:id="@+id/switch_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:switchStatus="close" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/tranpant_bg_selector" />
+
+        <!--聊天图片-->
+        <RelativeLayout
+            android:id="@+id/chat_piture_rel"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_bg_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|left"
+
+                android:text="@string/chat_pictrue"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+
+                android:gravity="center_vertical|right"
+                android:src="@drawable/right_arrow" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/tranpant_bg_selector" />
+
+        <!--聊天文件-->
+        <RelativeLayout
+            android:id="@+id/chat_file_rel"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/white_bg_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|left"
+
+                android:text="@string/chat_file"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+
+                android:gravity="center_vertical|right"
+                android:src="@drawable/right_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/tranpant_bg_selector" />
+        </RelativeLayout>
+
+
+        <!--  清空聊天记录-->
+        <RelativeLayout
+            android:id="@+id/clear_all_history"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_bg_selector"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|left"
+
+                android:text="@string/Empty_the_chat_record"
+                android:textColor="@color/fontcolors8"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/tranpant_bg_selector" />
+
+    </LinearLayout>
+</com.elead.views.MyScrollView>

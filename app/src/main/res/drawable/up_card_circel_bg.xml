@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <shape>
+            <!-- 实线：用来设定边框区域内部的颜色 -->
+            <solid android:color="#00ffffff" />
+            <!-- 画法：用来设定边框的粗细和颜色 -->
+            <stroke android:width="0.5dp" android:color="@color/develop_tb_line" />
+            <!-- 设定圆角按钮 -->
+            <corners android:radius="7dp"></corners>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#00ffffff" />
+            <stroke android:width="0.5dp" android:color="@color/develop_tb_line" />
+            <corners android:radius="7dp"></corners>
+        </shape>
+    </item>
+
+</selector>

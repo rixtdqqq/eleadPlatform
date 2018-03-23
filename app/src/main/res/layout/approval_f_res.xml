@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.elead.approval.widget.EdiTextItem
+        android:id="@+id/ed_res_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></com.elead.approval.widget.EdiTextItem>
+
+    <LinearLayout
+        android:id="@+id/ll_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.elead.approval.widget.ResLayout
+            android:id="@+id/ll_res_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.elead.approval.widget.ResLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/approval_common_add_layout"/>
+
+    <com.elead.approval.widget.EdiTextItem
+        android:id="@+id/ed_res_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></com.elead.approval.widget.EdiTextItem>
+
+</LinearLayout>

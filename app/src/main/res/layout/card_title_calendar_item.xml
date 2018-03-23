@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/card_calendar_left_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/left_icon" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/list_item_po_calendar"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="@color/fontcolors3"
+        android:text="2016/10/20"
+        android:textSize="@dimen/card_content_size" />
+
+    <ImageButton
+        android:id="@+id/img_arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:background="@null"
+        android:paddingRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arrow_down"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/card_calendar_right_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/right_icon" />
+
+</LinearLayout>

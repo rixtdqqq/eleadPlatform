@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/qianlv"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="@string/qr_code_title"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/head_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <com.elead.views.CircularImageView
+            android:id="@+id/photo_qrcode"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:border="true"
+            app:border_color="#FFFFFFFF"
+            app:border_width="1dp"
+            app:selector="true"
+            app:selector_color="#4403a9f4"
+            app:selector_stroke_color="#aa5677fc"
+            app:selector_stroke_width="1dp"
+            app:shadow="true" />
+
+        <TextView
+            android:id="@+id/use_name_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photo_qrcode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/fontcolors8"
+            android:textSize="@dimen/px48" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/qr_img_rel"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/head_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/qr_img_shape">
+
+        <ImageView
+            android:id="@+id/qr_code_imge_id"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qr_img_rel"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="25dp"
+        android:text="扫一扫上面的二维码图案,加我为好友"
+        android:textColor="@color/fontcolors4"
+        android:textSize="@dimen/px36" />
+
+</RelativeLayout>

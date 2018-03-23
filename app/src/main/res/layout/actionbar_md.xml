@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/opera_title_bg">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tranpant_bg_selector"
+        android:scaleType="centerInside"
+        android:src="@drawable/operation_back" />
+
+    <LinearLayout
+        android:id="@+id/ll_center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/title_textsize" />
+        <ImageView
+            android:id="@+id/img_arrow_down"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/operation_back"
+            android:rotation="-90"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/msg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tranpant_bg_selector"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/md_title_msg"
+        android:visibility="gone"/>
+
+</RelativeLayout>

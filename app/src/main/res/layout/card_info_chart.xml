@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/card_padding_Top"
+    android:paddingTop="@dimen/card_padding_Top">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天线"
+        android:layout_marginLeft="@dimen/card_padding_Top"
+        android:textColor="@color/white"
+        android:textSize="@dimen/card_title_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@color/rdc_line_color" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="@dimen/card_padding_Left"
+        android:layout_marginRight="@dimen/card_padding_Top"
+        android:text="出色的信号服务都是一部好的手机的基本功,强大的4G上网优选技术,能智能链接 更优的4G频段,提升4G上网体验.能多技术细节,点击此处浏览>> "
+        android:textColor="@color/fontcolors3"
+        android:textSize="@dimen/card_title_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/card_padding_Left"
+        android:paddingRight="@dimen/card_padding_Top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rdc_img9" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80%"
+                    android:textColor="#ff6969"
+                    android:textSize="@dimen/px60" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="性能提升"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/px30" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26%"
+                    android:textColor="#5fdd9e"
+                    android:textSize="@dimen/px60" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="能耗降低"
+                    android:textColor="#555555"
+                    android:textSize="@dimen/px30" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

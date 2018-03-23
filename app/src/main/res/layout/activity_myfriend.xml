@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.elead.im.view.EaseContactList xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contact_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:ctsListInitialLetterBg="@color/big_line_bg"
+    app:ctsListInitialLetterColor="@color/fontcolors7"
+    app:ctsListPrimaryTextColor="#000000"
+    app:ctsListPrimaryTextSize="16sp"
+    app:ctsListShowSiderBar="true" />

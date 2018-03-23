@@ -1,0 +1,24 @@
+ {
+              "cardType": "EntryListCard",
+              "cardTitle": "项目概览",
+              "appID": "APPDevelop",
+              "cardDetail": {
+              "dataCount": "6"
+              }
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              },
+              {
+              "cardType": "SubmenuListCard",
+              "cardTitle": "更多应用"
+              },
+              {
+              "cardType": "SeparatorCard",
+              "cardTitle": "",
+              "cardHeight": "14",
+              "color": "f5f5f5"
+              }

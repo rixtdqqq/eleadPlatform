@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/more_applications"
+        android:textColor="@color/fontcolors3"
+        android:textSize="@dimen/title_textsize" />
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/backg" />-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:background="#DEDEDE"
+        />
+
+    <com.elead.views.CustomGridView
+        android:id="@+id/gridListIv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:cacheColorHint="@null"
+        android:horizontalSpacing="5dp"
+        android:numColumns="5"
+        android:verticalSpacing="5dp">
+
+
+    </com.elead.views.CustomGridView>
+</LinearLayout>

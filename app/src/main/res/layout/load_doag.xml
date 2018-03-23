@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000" >
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bantou_bg" >
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                style="@style/loading_large"
+                android:background="@drawable/jiazaie"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/login_doag_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:text="正在加载……"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

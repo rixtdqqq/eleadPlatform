@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding_Left"
+    android:paddingRight="@dimen/card_padding_Left">
+
+    <EditText
+        android:id="@+id/edit_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="@drawable/tranpant_bg_selector"
+        android:hint="@string/group_name"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/fontcolors8"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edit_group_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/tranpant_bg_selector"
+        android:gravity="top"
+        android:hint="@string/Group_chat_profile"
+        android:lines="5"
+        android:padding="5dp"
+        android:textColor="@color/fontcolors8"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/Whether_the_public"
+            android:textColor="@color/fontcolors8"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cb_public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_open_invite"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/second_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/Open_group_members_invited"
+            android:textColor="@color/fontcolors8"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cb_member_inviter"
+            style="@android:style/Widget.Holo.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:background="@drawable/tranpant_bg_selector" />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/CommitButtonStyle_No_Margin"
+        android:layout_below="@id/line_pwd"
+        android:layout_marginTop="10dp"
+        android:onClick="save"
+        android:text="@string/save" />
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_userhead"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            >
+            <com.elead.views.CircularImageView
+                android:id="@+id/iv_userhead"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/ll_userhead"
+            android:background="@drawable/im_chatbg_to" >
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:textSize="13sp"
+                android:textColor="@color/fontcolors8" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/bubble"
+            android:clickable="true"
+            android:src="@drawable/create_team"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_ack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Read"
+            android:textSize="12sp"
+            android:layout_toLeftOf="@id/bubble"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/tv_delivered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Delivered"
+            android:textSize="12sp"
+            android:layout_toLeftOf="@id/tv_chatcontent"
+            android:visibility="invisible"
+            />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/bubble"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

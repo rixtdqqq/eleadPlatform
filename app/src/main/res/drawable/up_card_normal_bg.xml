@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <shape>
+            <!-- 实线：用来设定边框区域内部的颜色 -->
+            <solid android:color="@color/up_card_5dd0aa" />
+            <!-- 画法：用来设定边框的粗细和颜色 -->
+            <stroke android:width="0.5dp" android:color="@color/up_card_5dd0aa" />
+            <!-- 设定圆角按钮 -->
+            <corners android:radius="4dp"></corners>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/up_card_5dd0aa" />
+            <stroke android:width="0.5dp" android:color="@color/up_card_5dd0aa" />
+            <corners android:radius="4dp"></corners>
+        </shape>
+    </item>
+
+</selector>

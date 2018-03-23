@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/industrial_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:gravity="center_vertical"
+        android:text="技术参数"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#363945"></View>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="14dp"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Project Name"
+                    android:textColor="#4C526C"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:text="GS9 series moblie "
+                    android:textColor="#8394A6"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:id="@+id/lenght_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dimension(L x w x h)"
+                    android:textColor="#4C526C"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lenght_id"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:text="167.1*83.5*8.95mm"
+                    android:textColor="#8394A6"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/color_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:textColor="#4C526C"
+                    android:textSize="12dp" />
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/color_id"
+                    android:layout_marginTop="8dp"
+
+                    android:orientation="horizontal">
+
+                    <RadioButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/card_industrial_design_circle_two"
+                        android:drawablePadding="3dp"
+                        android:text="闪光银"
+                        android:textColor="#ffffff"
+
+                        android:textSize="14dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/card_industrial_design_circle_one"
+                        android:drawablePadding="3dp"
+                        android:text="典雅金"
+                        android:textColor="#ffffff"
+                        android:textSize="14dp" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/screen_name_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Screen"
+                        android:textColor="#4C526C"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/screen_digital_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/screen_name_id"
+                        android:layout_marginTop="8dp"
+                        android:text="4.7“ /5.5”"
+                        android:textColor="#8394A6"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/screen_digital_id"
+                        android:text="2K Screen"
+                        android:textColor="#8394A6"
+
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/lens_name_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lens"
+                        android:textColor="#4C526C"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/lens_digtal_one_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lens_name_id"
+                        android:layout_marginTop="8dp"
+                        android:text="21M"
+                        android:textColor="#8394A6"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lens_digtal_one_id"
+                        android:text="8M"
+                        android:textColor="#8394A6"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

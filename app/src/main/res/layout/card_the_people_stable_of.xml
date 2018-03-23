@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/small_line_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/rect_ziyuanguihua"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="17dp"
+                android:background="#8976b5" />
+
+            <TextView
+                android:id="@+id/tv_shijigongshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="资源规划"
+                android:textColor="@color/fontcolors3"
+                android:textSize="@dimen/px36" />
+
+            <View
+                android:id="@+id/rect_shijigongshi"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="16dp"
+                android:background="#FF00FF" />
+
+            <TextView
+                android:id="@+id/tv_ziyuanguihua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="实际工时"
+                android:textColor="@color/fontcolors3"
+                android:textSize="@dimen/px36" />
+        </LinearLayout>
+
+        <com.elead.card.views.BaseWaveView
+            android:id="@+id/wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" />
+
+        <com.elead.card.views.CusSpinner
+            android:id="@+id/stable_sp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:stretchColumns="0,1,2">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="43"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="63"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="35"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px50"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="合同约定"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px36" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="及时到位"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px36" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="核心人员"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px36" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px50"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="核心变动"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px36" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="核心面试"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px36" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/fontcolors1"
+                android:textSize="@dimen/px36" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

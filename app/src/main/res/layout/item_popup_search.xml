@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- <AutoCompleteTextView
+             android:id="@+id/edi_search"
+             android:layout_width="0dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="13dp"
+             android:layout_marginRight="13dp"
+             android:layout_weight="1"
+             android:background="@drawable/shap_edittext_search"
+             android:drawableLeft="@drawable/search_img"
+             android:drawablePadding="7dp"
+             android:gravity="center_vertical"
+             android:hint="输入用户名搜索"
+             android:paddingLeft="11dp"
+             android:paddingRight="11dp"
+             android:singleLine="true"
+             android:textColor="@color/fontcolors7"
+             android:textColorHint="@color/fontcolors4"
+             android:textSize="14sp" />-->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edi_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shap_edittext_search"
+                android:drawableLeft="@drawable/search_img"
+                android:drawablePadding="7dp"
+                android:hint="输入用户名搜索"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:textColor="@color/fontcolors7"
+                android:textColorHint="@color/fontcolors4"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/cear_delete_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ease_search_clear_pressed"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvCanale"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/search_listiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/user_no_exit_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/user_not_exist"
+        android:textColor="@color/fontcolors4"
+        android:textSize="@dimen/px42"
+        android:visibility="gone" />
+
+
+    <View
+        android:id="@+id/popup_window_v_alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#80000000" />
+
+</LinearLayout>

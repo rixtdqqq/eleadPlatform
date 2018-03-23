@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_pics" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/set_psw"
+            android:textColor="#2ec7c9"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/small_line_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/del_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:src="@drawable/ic_clear"
+                android:scaleType="centerInside" />
+
+            <EditText
+                android:id="@+id/ed_identify"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/del_1"
+                android:background="@null"
+                android:drawableLeft="@drawable/identify_code"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="请从易立德邮箱获取验证码"
+                android:textColorHint="@color/fontcolors5"
+                android:textColor="@color/up_card_212121"
+                android:textSize="18dp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#2ec7c9" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+
+            <ImageView
+                android:id="@+id/del_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_clear"
+                android:scaleType="centerInside" />
+
+            <EditText
+                android:id="@+id/ed_psw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/del_2"
+                android:background="@null"
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="新密码(6-16位)"
+                android:inputType="textPassword"
+                android:textColorHint="@color/fontcolors5"
+                android:textColor="@color/up_card_212121"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#2ec7c9" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp">
+
+
+            <ImageView
+                android:id="@+id/del_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_clear"
+                android:scaleType="centerInside" />
+
+            <EditText
+                android:id="@+id/ed_sure_psw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/del_3"
+                android:background="@null"
+                android:drawableLeft="@drawable/key"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="确认密码"
+                android:inputType="textPassword"
+                android:textColorHint="@color/fontcolors5"
+                android:textColor="@color/up_card_212121"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#2ec7c9" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_finish"
+        style="@style/CommitButtonStyle"
+        android:text="完成"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

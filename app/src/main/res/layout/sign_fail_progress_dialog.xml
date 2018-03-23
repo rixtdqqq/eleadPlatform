@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sign_dialog_img_top"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sign_fail_biaoti" />
+
+    <ImageView
+        android:id="@+id/sign_big_kuang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerInside"
+
+        android:src="@drawable/sign_fail_tupian" />
+
+    <TextView
+        android:id="@+id/sign_dialog_tv_more_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请检查网络\n并确保在打卡范围内"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/btn_zhezhao"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_zhezhao"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:background="@null"
+        android:layout_below="@+id/imb_sign_dialog_close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp" />
+
+    <ImageButton
+        android:id="@+id/imb_sign_dialog_close"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/sign_dialog_close_btn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

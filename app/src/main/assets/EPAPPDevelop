@@ -1,0 +1,187 @@
+{
+    "data": [
+             {
+             "cards": [
+                       {
+                       "cardType": "MultipleCircleCard",
+                       "cardTitle": "需求规范",
+                       "isShowTitle": "1",
+                       "cardDetail": {
+                       "isShowDate": "1",
+                       "menuCount": "0",
+                       "circleCount": "1"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       },
+                       {
+                       "cardType": "FormCard",
+                       "isShowTitle": "0",
+                       "cardTitle": ""
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       }
+                       ],
+             "tabTitle": "需求",
+             "navTitle": "需求",
+             "imgUrl": "EPCardXuqiu",
+             "selectImgUrl": "EPCardXuqiuLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "MultipleCircleCard",
+                       "cardTitle": "质量报告",
+                       "isShowTitle": "1",
+                       "cardDetail": {
+                       "isShowDate": "1",
+                       "menuCount": "0",
+                       "circleCount": "2"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       },
+                       {
+                       "cardType": "ColumnCard",
+                       "cardTitle": "交付质量"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       },
+                       {
+                       "cardType": "FormCard",
+                       "isShowTitle": "1",
+                       "cardTitle": "质量缺陷"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       }
+                       ],
+             "tabTitle": "质量",
+             "navTitle": "质量",
+             "imgUrl": "EPCardZhiliang",
+             "selectImgUrl": "EPCardZhiliangLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "TabItemCard",
+                       "cardTitle": ""
+                       },
+                       {
+                       "cardType": "MultipleCircleCard",
+                       "cardTitle": "2",
+                       "isShowTitle": "0",
+                       "cardDetail": {
+                       "isShowDate": "0",
+                       "menuCount": "0",
+                       "circleCount": "3"
+                       },
+                       "tabType": "0"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5",
+                       "tabType": "0"
+                       },
+                       {
+                       "cardType": "CorrugateLineCard",
+                       "cardTitle": "人员稳定性",
+                       "tabType": "0"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5",
+                       "tabType": "0"
+                       },
+                       {
+                       "cardType": "MultipleCircleCard",
+                       "cardTitle": "3",
+                       "isShowTitle": "0",
+                       "cardDetail": {
+                       "isShowDate": "0",
+                       "menuCount": "0",
+                       "circleCount": "3"
+                       },
+                       "tabType": "1"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5",
+                       "tabType": "1"
+                       },
+                       {
+                       "cardType": "LinePieChartCard",
+                       "cardTitle": "特殊刷卡统计",
+                       "tabType": "1"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5",
+                       "tabType": "1"
+                       }
+                       ],
+             "tabTitle": "管理",
+             "navTitle": "管理",
+             "imgUrl": "EPCardGuanli",
+             "selectImgUrl": "EPCardGuanliLan"
+             },
+             {
+             "cards": [
+                       {
+                       "cardType": "HorizonProgressCard",
+                       "cardTitle": "进度"
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       },
+                       {
+                       "cardType": "EntryListCard",
+                       "cardTitle": "基本信息",
+                       "cardDetail": {
+                       "dataCount": "1"
+                       }
+                       },
+                       {
+                       "cardType": "SeparatorCard",
+                       "cardTitle": "",
+                       "cardHeight": "14",
+                       "color": "f5f5f5"
+                       }
+                       ],
+             "tabTitle": "项目",
+             "navTitle": "PO概况",
+             "imgUrl": "EPCardCharts",
+             "selectImgUrl": "EPCardChartsLan"
+             }
+             ]
+}

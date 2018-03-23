@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FF00FF"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imb_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tranpant_bg_selector"
+        android:scaleType="centerInside"
+        android:src="@drawable/approval_back_selector" />
+
+    <ImageButton
+        android:id="@+id/imb_x"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tranpant_bg_selector"
+        android:scaleType="centerInside"
+        android:src="@drawable/approval_x_selector" />
+
+    <TextView
+        android:id="@+id/tv_tltle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="biaoti"
+        android:textSize="@dimen/title_textsize" />
+</LinearLayout>

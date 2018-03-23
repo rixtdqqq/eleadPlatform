@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/takephoto_pressed"></bitmap>
+    </item>
+    <item android:state_selected="true">
+        <bitmap android:src="@drawable/takephoto_pressed"></bitmap>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/takephoto_normal"></bitmap>
+    </item>
+
+
+</selector>

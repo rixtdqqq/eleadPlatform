@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/username_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_photo_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5sp"
+                android:text="高栏"
+                android:textColor="#000000"
+                android:textSize="@dimen/approval_textsize" />
+
+            <TextView
+                android:id="@+id/des_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8sp"
+                android:text="你可查看本人提交的数据"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/des_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="8sp"
+                android:text="权限说明 >"
+                android:textColor="@color/qianlv"
+                android:textSize="12dp" />
+
+            <com.elead.views.CircularImageView
+                android:id="@+id/my_photo_id"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                app:border="true"
+                app:border_color="#FFFFFF"
+                app:border_width="2dp"
+                app:selector="true"
+                app:selector_color="#30000000"
+                app:selector_stroke_color="#10000000"
+                app:selector_stroke_width="2dp"
+                app:shadow="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/use_help_rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:background="@color/small_line_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="13sp"
+                android:layout_marginTop="15dp"
+                android:text="使用帮助"
+                android:textColor="#000000"
+                android:textSize="@dimen/title_textsize" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/right_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_alignParentBottom="true"
+                android:background="#999999"></View>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13sp"
+            android:layout_marginTop="15dp"
+            android:text="遇到困难？专家免费上门指导"
+            android:textColor="@color/qianlv"
+            android:textSize="12dp" />
+    </LinearLayout>
+</ScrollView>

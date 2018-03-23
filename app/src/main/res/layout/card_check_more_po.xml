@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_more_ll"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/load_more_text_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/card_arrow_green"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:text="查看更多PO项目"
+        android:textColor="#43C8C9"
+        android:textSize="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progreebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/loading_more_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="正在加载"
+        android:textColor="#525973"
+        android:textSize="16sp"
+        android:visibility="gone" />
+</LinearLayout>

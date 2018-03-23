@@ -1,0 +1,52 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/approval_item_height_edit"
+    android:background="@drawable/white_bg_selector">
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_right"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:text="请假类型"
+        android:textColor="@color/fontcolors8"
+        android:textSize="@dimen/approval_textsize" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/right_arrow"
+        android:gravity="center"
+        android:text="请选择(必填)"
+        android:textColor="@color/fontcolors4"
+
+        android:textSize="@dimen/approval_textsize" />
+    <TextView
+        android:id="@+id/tv_right_no_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="请选择(必填)"
+        android:textColor="@color/fontcolors4"
+        android:visibility="gone"
+        android:textSize="@dimen/approval_textsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/small_line_bg"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

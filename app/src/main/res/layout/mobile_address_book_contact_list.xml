@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+    <com.elead.views.Sidebar
+        android:id="@+id/sidebar"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/floating_header"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bantou_bg"
+        android:gravity="center"
+        android:minEms="2"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
